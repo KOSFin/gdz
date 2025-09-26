@@ -1,0 +1,1450 @@
+{
+  "Алфавитный порядок|Порядок в словаре|https://ulearn.me/course/python/Poryadok_v_slovare_827e9d56-d56a-43ae-a2bd-e68220ecc1c4": {
+    "code": "a = input().lower()\nb = input().lower()\nif a < b:\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Порядок в словаре на Ulearn.me",
+    "module": "Алфавитный порядок",
+    "task": "Порядок в словаре",
+    "timestamp": "2025-09-26T15:44:12.031Z",
+    "url": "https://ulearn.me/course/python/Poryadok_v_slovare_827e9d56-d56a-43ae-a2bd-e68220ecc1c4"
+  },
+  "Алфавитный порядок|Скачок|https://ulearn.me/course/python/Skachok_3e48988b-dfe0-49d8-a294-26f5ea40465a": {
+    "code": "s = input()\nx = int(input())\nprint(chr(ord(s) + x))",
+    "courseName": "Язык Python: Скачок на Ulearn.me",
+    "module": "Алфавитный порядок",
+    "task": "Скачок",
+    "timestamp": "2025-09-26T15:44:14.844Z",
+    "url": "https://ulearn.me/course/python/Skachok_3e48988b-dfe0-49d8-a294-26f5ea40465a"
+  },
+  "Алфавитный порядок|Стоимость замены|https://ulearn.me/course/python/Stoimost_zameny_37657996-a892-4df4-8236-a806b8fc952b": {
+    "code": "print(abs(ord(input()) - ord(input())))",
+    "courseName": "Язык Python: Стоимость замены на Ulearn.me",
+    "module": "Алфавитный порядок",
+    "task": "Стоимость замены",
+    "timestamp": "2025-09-26T15:44:17.608Z",
+    "url": "https://ulearn.me/course/python/Stoimost_zameny_37657996-a892-4df4-8236-a806b8fc952b"
+  },
+  "Алфавитный порядок|Шифр Цезаря|https://ulearn.me/course/python/Shifr_Tsezarya_407c3413-fb14-4c4e-a2f5-1ea571f5e9fe": {
+    "code": "s = input()\nprint(''.join(chr(ord(c) + 1) for c in s))",
+    "courseName": "Язык Python: Шифр Цезаря на Ulearn.me",
+    "module": "Алфавитный порядок",
+    "task": "Шифр Цезаря",
+    "timestamp": "2025-09-26T15:44:20.306Z",
+    "url": "https://ulearn.me/course/python/Shifr_Tsezarya_407c3413-fb14-4c4e-a2f5-1ea571f5e9fe"
+  },
+  "Ввод и вывод|Витя и сладости|https://ulearn.me/course/python/Vitya_i_sladosti_80df4a37-359c-4eb7-86f8-e33bf18e652e": {
+    "code": "n = int(input())\nk = int(input())\nm = int(input())\nprint(n-k*m)​",
+    "courseName": "Язык Python: Витя и сладости на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Витя и сладости",
+    "timestamp": "2025-09-26T15:28:38.107Z",
+    "url": "https://ulearn.me/course/python/Vitya_i_sladosti_80df4a37-359c-4eb7-86f8-e33bf18e652e"
+  },
+  "Ввод и вывод|Вова и книжки по математике|https://ulearn.me/course/python/Vova_i_knizhki_po_matematike_e3341bab-02dd-4300-b710-80471ea52a98": {
+    "code": "A = int(input())\nB = int(input())\nC = int(input())\n​\nread = A * 30 + B * 45 + C * 60\n​\ntotal = 24 * 60\n​\nrest = total - read\n​\nhours = rest // 60\nminutes = rest % 60\n​\nprint(hours)\nprint(minutes)\n​",
+    "courseName": "Язык Python: Вова и книжки по математике на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Вова и книжки по математике",
+    "timestamp": "2025-09-26T15:38:04.637Z",
+    "url": "https://ulearn.me/course/python/Vova_i_knizhki_po_matematike_e3341bab-02dd-4300-b710-80471ea52a98"
+  },
+  "Ввод и вывод|Время в движении|https://ulearn.me/course/python/Vremya_v_dvizhenii_2c406b95-f578-4a69-ad47-0e8b636699fc": {
+    "code": "a = 40+10+5\nb = 90-40+30-10+50-5\nprint(a)\nprint(b)​",
+    "courseName": "Язык Python: Время в движении на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Время в движении",
+    "timestamp": "2025-09-26T15:28:07.401Z",
+    "url": "https://ulearn.me/course/python/Vremya_v_dvizhenii_2c406b95-f578-4a69-ad47-0e8b636699fc"
+  },
+  "Ввод и вывод|Грибы|https://ulearn.me/course/python/Griby_147686d0-aa0a-456a-9720-001fcd7f6d6c": {
+    "code": "print(36//2)",
+    "courseName": "Язык Python: Грибы на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Грибы",
+    "timestamp": "2025-09-26T15:28:01.079Z",
+    "url": "https://ulearn.me/course/python/Griby_147686d0-aa0a-456a-9720-001fcd7f6d6c"
+  },
+  "Ввод и вывод|Деление|https://ulearn.me/course/python/Delenie_b1dafe96-86c6-4180-896d-f992374caf1b": {
+    "code": "a = int(input())\nb = int(input())\nprint(a//b)\nprint(a%b)\n​\n​\n​",
+    "courseName": "Язык Python: Деление на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Деление",
+    "timestamp": "2025-09-26T15:28:44.316Z",
+    "url": "https://ulearn.me/course/python/Delenie_b1dafe96-86c6-4180-896d-f992374caf1b"
+  },
+  "Ввод и вывод|Ира и томаты|https://ulearn.me/course/python/Ira_i_tomaty_e9ba0dde-ff59-4e1c-be7b-ed1051df4279": {
+    "code": "N = int(input())\nA = int(input())\nB = int(input())\nC = int(input())\nD = int(input())\n​\na = N//3\nx=a*A-a*B\nb = N//3*2\nx+=b*C-b*D\nprint(x)\n​\n​",
+    "courseName": "Язык Python: Ира и томаты на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Ира и томаты",
+    "timestamp": "2025-09-26T15:38:01.462Z",
+    "url": "https://ulearn.me/course/python/Ira_i_tomaty_e9ba0dde-ff59-4e1c-be7b-ed1051df4279"
+  },
+  "Ввод и вывод|Марина и яблоки|https://ulearn.me/course/python/Marina_i_yabloki_f45d9725-8002-43a0-8b38-08db28fa9607": {
+    "code": "A = int(input())\nB = int(input())\nC = int(input())\n​\nfriends = A // 3 + B // 3 + C // 3\nmarina = A % 3 + B % 3 + C % 3\n​\nprint(friends)\nprint(marina)\n​",
+    "courseName": "Язык Python: Марина и яблоки на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Марина и яблоки",
+    "timestamp": "2025-09-26T15:37:50.302Z",
+    "url": "https://ulearn.me/course/python/Marina_i_yabloki_f45d9725-8002-43a0-8b38-08db28fa9607"
+  },
+  "Ввод и вывод|Печать нескольких чисел|https://ulearn.me/course/python/Pechat_neskol_kikh_chisel_b3de8ccc-5900-4812-b58e-b86b7602b66c": {
+    "code": "print(42)\nprint(1000)\nprint(576)\n​",
+    "courseName": "Язык Python: Печать нескольких чисел на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Печать нескольких чисел",
+    "timestamp": "2025-09-26T15:27:51.704Z",
+    "url": "https://ulearn.me/course/python/Pechat_neskol_kikh_chisel_b3de8ccc-5900-4812-b58e-b86b7602b66c"
+  },
+  "Ввод и вывод|Печать числа|https://ulearn.me/course/python/Pechat_chisla_3b304d4b-dc82-44d4-a59a-7d5ac35bf4ea": {
+    "code": "print(1000)\n​\n​\n​",
+    "courseName": "Язык Python: Печать числа на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Печать числа",
+    "timestamp": "2025-09-26T15:27:45.869Z",
+    "url": "https://ulearn.me/course/python/Pechat_chisla_3b304d4b-dc82-44d4-a59a-7d5ac35bf4ea"
+  },
+  "Ввод и вывод|Привет, мир!|https://ulearn.me/course/python/Privet_mir__441d469f-5f85-4547-bb94-375bab363a49": {
+    "code": "​\nprint('Hello, world!')\n​\n​",
+    "courseName": "Язык Python: Привет, мир! на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Привет, мир!",
+    "timestamp": "2025-09-26T15:38:07.837Z",
+    "url": "https://ulearn.me/course/python/Privet_mir__441d469f-5f85-4547-bb94-375bab363a49"
+  },
+  "Ввод и вывод|Произведение двух чисел|https://ulearn.me/course/python/Proizvedenie_dvukh_chisel_89f6ed9b-1b0c-4ff0-a751-120d1961acb3": {
+    "code": "a = int(input())\nb = int(input())\nprint(a*b)\n​\n​\n​",
+    "courseName": "Язык Python: Произведение двух чисел на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Произведение двух чисел",
+    "timestamp": "2025-09-26T15:28:30.823Z",
+    "url": "https://ulearn.me/course/python/Proizvedenie_dvukh_chisel_89f6ed9b-1b0c-4ff0-a751-120d1961acb3"
+  },
+  "Ввод и вывод|Произведение суммы и числа|https://ulearn.me/course/python/Proizvedenie_summy_i_chisla_9a34ced4-c2b2-42f3-8cb7-2c6e5af071dd": {
+    "code": "A = int(input())\nB = int(input())\nC = int(input())\nprint((A+B)*C)\n​\n​\n​",
+    "courseName": "Язык Python: Произведение суммы и числа на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Произведение суммы и числа",
+    "timestamp": "2025-09-26T15:28:34.266Z",
+    "url": "https://ulearn.me/course/python/Proizvedenie_summy_i_chisla_9a34ced4-c2b2-42f3-8cb7-2c6e5af071dd"
+  },
+  "Ввод и вывод|Прочти число - 2|https://ulearn.me/course/python/Prochti_chislo_2_02afb453-2287-4a13-be07-cbfd0c7741f4": {
+    "code": "a, b = int(input()), int(input())\nprint(a)\nprint(b)\n​\n​\n​",
+    "courseName": "Язык Python: Прочти число - 2 на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Прочти число - 2",
+    "timestamp": "2025-09-26T15:28:18.184Z",
+    "url": "https://ulearn.me/course/python/Prochti_chislo_2_02afb453-2287-4a13-be07-cbfd0c7741f4"
+  },
+  "Ввод и вывод|Прочти число|https://ulearn.me/course/python/Prochti_chislo_e57d2cad-560b-451b-b3b7-2aa4adc9e219": {
+    "code": "a = int(input())\nprint(a)\n​\n​\n​",
+    "courseName": "Язык Python: Прочти число на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Прочти число",
+    "timestamp": "2025-09-26T15:28:15.058Z",
+    "url": "https://ulearn.me/course/python/Prochti_chislo_e57d2cad-560b-451b-b3b7-2aa4adc9e219"
+  },
+  "Ввод и вывод|Стоимость книг|https://ulearn.me/course/python/Stoimost_knig_a06475c9-fe82-47b0-a5c1-f8d69e6be73b": {
+    "code": "print((5*10+2*35+70)//2)\n​\n​\n​",
+    "courseName": "Язык Python: Стоимость книг на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Стоимость книг",
+    "timestamp": "2025-09-26T15:28:04.704Z",
+    "url": "https://ulearn.me/course/python/Stoimost_knig_a06475c9-fe82-47b0-a5c1-f8d69e6be73b"
+  },
+  "Ввод и вывод|Сумма двух чисел|https://ulearn.me/course/python/Summa_dvukh_chisel_edbbc471-e254-44d2-94ed-779e2805e584": {
+    "code": "a = int(input())\nb = int(input())\nprint(a+b)\n​\n​\n​",
+    "courseName": "Язык Python: Сумма двух чисел на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Сумма двух чисел",
+    "timestamp": "2025-09-26T15:28:22.948Z",
+    "url": "https://ulearn.me/course/python/Summa_dvukh_chisel_edbbc471-e254-44d2-94ed-779e2805e584"
+  },
+  "Ввод и вывод|Сумма произведений|https://ulearn.me/course/python/Summa_proizvedeniy_ffc0a77f-cf46-4962-9e0f-3fb10162fec9": {
+    "code": "a = int(input())\nb = int(input())\nc = int(input())\nprint(a*b+b*c+c*a)\n​\n​\n​",
+    "courseName": "Язык Python: Сумма произведений на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Сумма произведений",
+    "timestamp": "2025-09-26T15:28:40.781Z",
+    "url": "https://ulearn.me/course/python/Summa_proizvedeniy_ffc0a77f-cf46-4962-9e0f-3fb10162fec9"
+  },
+  "Ввод и вывод|Сумма трёх чисел|https://ulearn.me/course/python/Summa_tryokh_chisel_1b464137-0973-4650-a360-b3aca492a5c6": {
+    "code": "a = int(input())\nb = int(input())\nc = int(input())\nprint(a+b+c)\n​\n​\n​",
+    "courseName": "Язык Python: Сумма трёх чисел на Ulearn.me",
+    "module": "Ввод и вывод",
+    "task": "Сумма трёх чисел",
+    "timestamp": "2025-09-26T15:28:25.895Z",
+    "url": "https://ulearn.me/course/python/Summa_tryokh_chisel_1b464137-0973-4650-a360-b3aca492a5c6"
+  },
+  "Вложенный for|Количество прямоугольников|https://ulearn.me/course/python/Kolichestvo_pryamougol_nikov_2a420b0b-958a-4016-a71f-20a1441e440b": {
+    "code": "n = int(input())\nm = int(input())\nprint(n * (n + 1) * m * (m + 1) // 4)",
+    "courseName": "Язык Python: Количество прямоугольников на Ulearn.me",
+    "module": "Вложенный for",
+    "task": "Количество прямоугольников",
+    "timestamp": "2025-09-26T15:40:37.205Z",
+    "url": "https://ulearn.me/course/python/Kolichestvo_pryamougol_nikov_2a420b0b-958a-4016-a71f-20a1441e440b"
+  },
+  "Вложенный for|Прямоугольник|https://ulearn.me/course/python/Pryamougol_nik_97b38925-e4a1-46d8-8b35-f2301d18452c": {
+    "code": "a = int(input())\nb = int(input())\ns = input()\nfor i in range(a):\n    print(s * b)",
+    "courseName": "Язык Python: Прямоугольник на Ulearn.me",
+    "module": "Вложенный for",
+    "task": "Прямоугольник",
+    "timestamp": "2025-09-26T15:40:31.454Z",
+    "url": "https://ulearn.me/course/python/Pryamougol_nik_97b38925-e4a1-46d8-8b35-f2301d18452c"
+  },
+  "Вложенный for|Треугольник|https://ulearn.me/course/python/Treugol_nik_f4b364bb-e259-46c9-8349-71990f1173e2": {
+    "code": "n = int(input())\ns = input()\nfor i in range(n):\n    print(s * (i + 1))",
+    "courseName": "Язык Python: Треугольник на Ulearn.me",
+    "module": "Вложенный for",
+    "task": "Треугольник",
+    "timestamp": "2025-09-26T15:40:34.350Z",
+    "url": "https://ulearn.me/course/python/Treugol_nik_f4b364bb-e259-46c9-8349-71990f1173e2"
+  },
+  "Встроенные функции|Да или нет|https://ulearn.me/course/python/Da_ili_net_04e6790a-81f3-43ab-a3eb-045c25c0e368": {
+    "code": "t = int(input())\ns = input()\nif t == 1:\n    print(s.lower())\nelse:\n    print(s.upper())",
+    "courseName": "Язык Python: Да или нет на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Да или нет",
+    "timestamp": "2025-09-26T15:42:17.843Z",
+    "url": "https://ulearn.me/course/python/Da_ili_net_04e6790a-81f3-43ab-a3eb-045c25c0e368"
+  },
+  "Встроенные функции|Заголовок|https://ulearn.me/course/python/Zagolovok_34a6b11c-fddf-4a36-ba91-510f2c580bd4": {
+    "code": "s = input().split()\ns = [s[0].capitalize()] + [i.lower() for i in s[1:]]\nprint(' '.join(s))",
+    "courseName": "Язык Python: Заголовок на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Заголовок",
+    "timestamp": "2025-09-26T15:42:15.142Z",
+    "url": "https://ulearn.me/course/python/Zagolovok_34a6b11c-fddf-4a36-ba91-510f2c580bd4"
+  },
+  "Встроенные функции|Замена|https://ulearn.me/course/python/Zamena_18acbda7-5ad3-4ae6-823f-61e6f6912416": {
+    "code": "s = input().strip().replace('Z', 'S').replace('z', 's')\nprint(s)",
+    "courseName": "Язык Python: Замена на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Замена",
+    "timestamp": "2025-09-26T15:42:20.468Z",
+    "url": "https://ulearn.me/course/python/Zamena_18acbda7-5ad3-4ae6-823f-61e6f6912416"
+  },
+  "Встроенные функции|Кредит|https://ulearn.me/course/python/Kredit_ec6326bd-f838-4df2-baa5-9e85c8094633": {
+    "code": "a = int(input())\nprint(min(3 * a, 2 * a + 100))",
+    "courseName": "Язык Python: Кредит на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Кредит",
+    "timestamp": "2025-09-26T15:41:57.508Z",
+    "url": "https://ulearn.me/course/python/Kredit_ec6326bd-f838-4df2-baa5-9e85c8094633"
+  },
+  "Встроенные функции|Лучший вариант|https://ulearn.me/course/python/Luchshiy_variant_22316d9f-c424-4e7e-a87b-3fbfe9bf4d8a": {
+    "code": "def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return a\n​\na = int(input())\nb = int(input())\nprint(gcd(a, b))",
+    "courseName": "Язык Python: Лучший вариант на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Лучший вариант",
+    "timestamp": "2025-09-26T15:42:12.434Z",
+    "url": "https://ulearn.me/course/python/Luchshiy_variant_22316d9f-c424-4e7e-a87b-3fbfe9bf4d8a"
+  },
+  "Встроенные функции|Магазин строк|https://ulearn.me/course/python/Magazin_strok_07722b79-5c86-44fe-9c8c-7ee2bf12c396": {
+    "code": "s = input()\nt = input()\nprint(max(len(s), len(t)))",
+    "courseName": "Язык Python: Магазин строк на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Магазин строк",
+    "timestamp": "2025-09-26T15:42:03.378Z",
+    "url": "https://ulearn.me/course/python/Magazin_strok_07722b79-5c86-44fe-9c8c-7ee2bf12c396"
+  },
+  "Встроенные функции|Решение задачи|https://ulearn.me/course/python/Reshenie_zadachi_37aa32da-6efd-44d0-a31c-1763fbcca7c7": {
+    "code": "a = int(input())\nb = int(input())\nc = int(input())\nd = int(input())\n​\nkolia_time = 60 + a + b\nvova_time = 60 + c + d\n​\nprint(min(kolia_time, vova_time))",
+    "courseName": "Язык Python: Решение задачи на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Решение задачи",
+    "timestamp": "2025-09-26T15:42:00.413Z",
+    "url": "https://ulearn.me/course/python/Reshenie_zadachi_37aa32da-6efd-44d0-a31c-1763fbcca7c7"
+  },
+  "Встроенные функции|Строй|https://ulearn.me/course/python/Stroy_a807f421-f586-49e9-843d-96610df53313": {
+    "code": "a1 = int(input())\na2 = int(input())\na3 = int(input())\na4 = int(input())\nunst = max(abs(a1 - a2), abs(a2 - a3), abs(a3 - a4))\nprint(unst)",
+    "courseName": "Язык Python: Строй на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Строй",
+    "timestamp": "2025-09-26T15:42:06.489Z",
+    "url": "https://ulearn.me/course/python/Stroy_a807f421-f586-49e9-843d-96610df53313"
+  },
+  "Встроенные функции|Факториал|https://ulearn.me/course/python/Faktorial_07125c3a-cc3d-4496-b0ac-90918de489a0": {
+    "code": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n​\nn = int(input())\nprint(factorial(n))",
+    "courseName": "Язык Python: Факториал на Ulearn.me",
+    "module": "Встроенные функции",
+    "task": "Факториал",
+    "timestamp": "2025-09-26T15:42:09.607Z",
+    "url": "https://ulearn.me/course/python/Faktorial_07125c3a-cc3d-4496-b0ac-90918de489a0"
+  },
+  "Двумерные списки|Многоэтажка|https://ulearn.me/course/python/Mnogoetazhka_9ddd9d0b-7e8a-4028-bbcc-57e0869619f5": {
+    "code": "n, m = map(int, input().split())\nans = 0\nfor i in range(n):\n    s = input()\n    cnt = 0\n    for j in range(m - 1):\n        if s[j] == '1' and s[j + 1] == '1':\n            cnt = 1\n    ans += cnt\nprint(ans)",
+    "courseName": "Язык Python: Многоэтажка на Ulearn.me",
+    "module": "Двумерные списки",
+    "task": "Многоэтажка",
+    "timestamp": "2025-09-26T15:47:09.198Z",
+    "url": "https://ulearn.me/course/python/Mnogoetazhka_9ddd9d0b-7e8a-4028-bbcc-57e0869619f5"
+  },
+  "Двумерные списки|Поиск внутри поиска|https://ulearn.me/course/python/Poisk_vnutri_poiska_7baffd31-fe05-43ce-993b-739f163083fc": {
+    "code": "s = input().strip()\nvowels = set(\"aeiouyAEIOUY\")  # считаем Y/y как гласную\ncount = 0\n​\nfor word in s.split():\n    caps = sum(ch.isupper() for ch in word)\n    vow = sum(ch in vowels for ch in word)\n    if caps > vow:\n        count += 1\n​\nprint(count)\n​",
+    "courseName": "Язык Python: Поиск внутри поиска на Ulearn.me",
+    "module": "Двумерные списки",
+    "task": "Поиск внутри поиска",
+    "timestamp": "2025-09-26T15:47:05.934Z",
+    "url": "https://ulearn.me/course/python/Poisk_vnutri_poiska_7baffd31-fe05-43ce-993b-739f163083fc"
+  },
+  "Двумерные списки|Тортик|https://ulearn.me/course/python/Tortik_da1c9797-508c-45f2-959c-866685313f71": {
+    "code": "n = int(input())\nt = [input() for _ in range(n)]\nfor i in range(n):\n    c = 0\n    for j in range(n):\n        if t[j][i] == 'C':\n            c += 1\n    if c == 0:\n        print('NO')\n        exit()\nprint('YES')",
+    "courseName": "Язык Python: Тортик на Ulearn.me",
+    "module": "Двумерные списки",
+    "task": "Тортик",
+    "timestamp": "2025-09-26T15:47:12.191Z",
+    "url": "https://ulearn.me/course/python/Tortik_da1c9797-508c-45f2-959c-866685313f71"
+  },
+  "Кортежи|Paint 2.0|https://ulearn.me/course/python/Paint_2_0_fd592757-c7d7-47ed-bb0d-ab3659a014a2": {
+    "code": "from collections import defaultdict\n​\nclass Paint:\n    def __init__(self):\n        self.layers = defaultdict(list)\n​\n    def set_pixel(self, x, y, c):\n        self.layers[(x, y)].append(c)\n​\n    def get_pixel(self, x, y):\n        if self.layers[(x, y)]:\n            return self.layers[(x, y)][-1]\n        else:\n            return 'white'\n​\n    def erase_pixel(self, x, y):\n        if self.layers[(x, y)]:\n            self.layers[(x, y)].pop()\n​\ndef main():\n    paint = Paint()\n    n = int(input())\n    for _ in range(n):\n        query = input().split()\n        if query[0] == 's':\n            paint.set_pixel(int(query[1]), int(query[2]), query[3])\n        elif query[0] == 'g':\n            print(paint.get_pixel(int(query[1]), int(query[2])))\n        elif query[0] == 'e':\n            paint.erase_pixel(int(query[1]), int(query[2]))\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Paint 2.0 на Ulearn.me",
+    "module": "Кортежи",
+    "task": "Paint 2.0",
+    "timestamp": "2025-09-26T15:48:08.017Z",
+    "url": "https://ulearn.me/course/python/Paint_2_0_fd592757-c7d7-47ed-bb0d-ab3659a014a2"
+  },
+  "Кортежи|Путешествие робота|https://ulearn.me/course/python/Puteshestvie_robota_ae1eb739-0872-4a2e-b747-89fba38b9e07": {
+    "code": "def calculate_visited_cells(commands):\n    x, y = 0, 0\n    visited = {(0, 0): 1}\n    directions = {\n        'L': (-1, 0),\n        'R': (1, 0),\n        'U': (0, 1),\n        'D': (0, -1)\n    }\n​\n    for command in commands:\n        dx, dy = directions[command]\n        x, y = x + dx, y + dy\n        visited[(x, y)] = 1\n​\n    return len(visited)\n​\n​\ncommands = input()\nprint(calculate_visited_cells(commands))",
+    "courseName": "Язык Python: Путешествие робота на Ulearn.me",
+    "module": "Кортежи",
+    "task": "Путешествие робота",
+    "timestamp": "2025-09-26T15:48:10.724Z",
+    "url": "https://ulearn.me/course/python/Puteshestvie_robota_ae1eb739-0872-4a2e-b747-89fba38b9e07"
+  },
+  "Логический тип данных|Аббревиатура|https://ulearn.me/course/python/Abbreviatura_e53ca615-e169-4f66-b16b-b234810c9803": {
+    "code": "s = input()\nprint('YES' if s.isupper() else 'NO')",
+    "courseName": "Язык Python: Аббревиатура на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Аббревиатура",
+    "timestamp": "2025-09-26T15:43:13.760Z",
+    "url": "https://ulearn.me/course/python/Abbreviatura_e53ca615-e169-4f66-b16b-b234810c9803"
+  },
+  "Логический тип данных|Большое или маленькое?|https://ulearn.me/course/python/Bol_shoe_ili_malen_koe__e380fd1f-5f15-4ef4-8e40-bc7b57c26113": {
+    "code": "s = input()\nbig = sum(1 for c in s if c.isupper())\nsmall = sum(1 for c in s if c.islower())\nif big > small:\n    print('BIG')\nelif big < small:\n    print('SMALL')\nelse:\n    print('SAME')",
+    "courseName": "Язык Python: Большое или маленькое? на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Большое или маленькое?",
+    "timestamp": "2025-09-26T15:43:27.211Z",
+    "url": "https://ulearn.me/course/python/Bol_shoe_ili_malen_koe__e380fd1f-5f15-4ef4-8e40-bc7b57c26113"
+  },
+  "Логический тип данных|Организация|https://ulearn.me/course/python/Organizatsiya_60116a19-c81c-4809-a526-2599c8634bb0": {
+    "code": "s = input()\nif s.islower() or not s.isupper():\n    print(\"NO\")\nelse:\n    print(\"YES\")",
+    "courseName": "Язык Python: Организация на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Организация",
+    "timestamp": "2025-09-26T15:43:19.191Z",
+    "url": "https://ulearn.me/course/python/Organizatsiya_60116a19-c81c-4809-a526-2599c8634bb0"
+  },
+  "Логический тип данных|Оценка|https://ulearn.me/course/python/Otsenka_988e19fc-dab2-4bbe-b689-4a6a47c6b185": {
+    "code": "import re\ns = input()\nif re.match(r'^result: [\\da-zа-я., ]+$', s) or s.isdigit():\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Оценка на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Оценка",
+    "timestamp": "2025-09-26T15:43:24.586Z",
+    "url": "https://ulearn.me/course/python/Otsenka_988e19fc-dab2-4bbe-b689-4a6a47c6b185"
+  },
+  "Логический тип данных|Спряталась|https://ulearn.me/course/python/Spryatalas__319a3a3d-9efe-460a-bd4d-681030cefb4e": {
+    "code": "s = input()\nf = False\nfor i in range(1, len(s)):\n    if s[i].isupper():\n        f = True\nif f:\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Спряталась на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Спряталась",
+    "timestamp": "2025-09-26T15:43:29.962Z",
+    "url": "https://ulearn.me/course/python/Spryatalas__319a3a3d-9efe-460a-bd4d-681030cefb4e"
+  },
+  "Логический тип данных|Так много условий|https://ulearn.me/course/python/Tak_mnogo_usloviy_55079460-95a2-4c8b-a620-eaacaecfd7d1": {
+    "code": "def check_conditions():\n    n, m = map(int, input().split())\n    numbers = [int(input()) for _ in range(n)]\n​\n    has_greater_than_m = any(num > m for num in numbers)\n    has_even_number = any(num % 2 == 0 for num in numbers)\n​\n    has_increasing_triplet = False\n    for i in range(n - 2):\n        if numbers[i] < numbers[i + 1] and numbers[i + 1] < numbers[i + 2]:\n            has_increasing_triplet = True\n            break\n​\n    print(\"YES\" if has_greater_than_m else \"NO\")\n    print(\"YES\" if has_even_number else \"NO\")\n    print(\"YES\" if has_increasing_triplet else \"NO\")\n​\ncheck_conditions()",
+    "courseName": "Язык Python: Так много условий на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Так много условий",
+    "timestamp": "2025-09-26T15:43:16.586Z",
+    "url": "https://ulearn.me/course/python/Tak_mnogo_usloviy_55079460-95a2-4c8b-a620-eaacaecfd7d1"
+  },
+  "Логический тип данных|Теорема Пифагора|https://ulearn.me/course/python/Teorema_Pifagora_2449ce29-9195-40ee-a473-ac2236b78276": {
+    "code": "import math\n​\ndef is_pythagorean(c):\n    for a in range(1, c):\n        b = math.sqrt(c**2 - a**2)\n        if b == int(b):\n            return True\n    return False\n​\ndef main():\n    c = int(input())\n    if is_pythagorean(c):\n        print('YES')\n    else:\n        print('NO')\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Теорема Пифагора на Ulearn.me",
+    "module": "Логический тип данных",
+    "task": "Теорема Пифагора",
+    "timestamp": "2025-09-26T15:43:21.878Z",
+    "url": "https://ulearn.me/course/python/Teorema_Pifagora_2449ce29-9195-40ee-a473-ac2236b78276"
+  },
+  "Множество|Было ли число?|https://ulearn.me/course/python/Bylo_li_chislo__38d8c6d7-f691-4144-920c-8a64fd452d65": {
+    "code": "def solve():\n    n = int(input())\n    numbers = list(map(int, input().split()))\n    seen = set()\n    for num in numbers:\n        if num in seen:\n            print('YES')\n        else:\n            print('NO')\n            seen.add(num)\n​\nsolve()",
+    "courseName": "Язык Python: Было ли число? на Ulearn.me",
+    "module": "Множество",
+    "task": "Было ли число?",
+    "timestamp": "2025-09-26T15:47:44.522Z",
+    "url": "https://ulearn.me/course/python/Bylo_li_chislo__38d8c6d7-f691-4144-920c-8a64fd452d65"
+  },
+  "Множество|Нечетное количество|https://ulearn.me/course/python/Nechetnoe_kolichestvo_8ae7c29d-dbea-4732-b885-4f5ccd74b0d0": {
+    "code": "from collections import Counter\n​\ndef count_odd_occurrences():\n    numbers = list(map(int, input().split()))\n    count = Counter(numbers)\n    odd_count = sum(val % 2 for val in count.values())\n    print(odd_count)\n​\ncount_odd_occurrences()",
+    "courseName": "Язык Python: Нечетное количество на Ulearn.me",
+    "module": "Множество",
+    "task": "Нечетное количество",
+    "timestamp": "2025-09-26T15:47:38.906Z",
+    "url": "https://ulearn.me/course/python/Nechetnoe_kolichestvo_8ae7c29d-dbea-4732-b885-4f5ccd74b0d0"
+  },
+  "Множество|Общее количество нечетных|https://ulearn.me/course/python/Obshchee_kolichestvo_nechetnykh_114e30a2-f4ef-4cb8-860e-442b22957f70": {
+    "code": "from collections import Counter\n​\na = list(map(int, input().split()))\nb = list(map(int, input().split()))\n​\nca = Counter(a)\ncb = Counter(b)\n​\ncommon = ca.keys() & cb.keys()\n​\nans = 0\nfor x in common:\n    if (ca[x] & 1) or (cb[x] & 1):\n        ans += 1\n​\nprint(ans)",
+    "courseName": "Язык Python: Общее количество нечетных на Ulearn.me",
+    "module": "Множество",
+    "task": "Общее количество нечетных",
+    "timestamp": "2025-09-26T15:47:41.698Z",
+    "url": "https://ulearn.me/course/python/Obshchee_kolichestvo_nechetnykh_114e30a2-f4ef-4cb8-860e-442b22957f70"
+  },
+  "Множество|Пересечение двух множеств|https://ulearn.me/course/python/Peresechenie_dvukh_mnozhestv_c3e0c02e-7079-421e-ba8f-ed1a271cb0ed": {
+    "code": "def intersection_count():\n    list_a = set(map(int, input().split()))\n    list_b = set(map(int, input().split()))\n    intersection = list_a.intersection(list_b)\n    print(len(intersection))\n​\nintersection_count()",
+    "courseName": "Язык Python: Пересечение двух множеств на Ulearn.me",
+    "module": "Множество",
+    "task": "Пересечение двух множеств",
+    "timestamp": "2025-09-26T15:47:36.226Z",
+    "url": "https://ulearn.me/course/python/Peresechenie_dvukh_mnozhestv_c3e0c02e-7079-421e-ba8f-ed1a271cb0ed"
+  },
+  "Множество|Уникальные числа|https://ulearn.me/course/python/Unikal_nye_chisla_533595ba-e59b-42fb-a987-d7d0554623d2": {
+    "code": "def count_unique_numbers():\n    numbers = list(map(int, input().split()))\n    unique_numbers = set(numbers)\n    print(len(unique_numbers))\n​\ncount_unique_numbers()",
+    "courseName": "Язык Python: Уникальные числа на Ulearn.me",
+    "module": "Множество",
+    "task": "Уникальные числа",
+    "timestamp": "2025-09-26T15:47:33.273Z",
+    "url": "https://ulearn.me/course/python/Unikal_nye_chisla_533595ba-e59b-42fb-a987-d7d0554623d2"
+  },
+  "Перебор элементов списка и строки|Верное выражение|https://ulearn.me/course/python/Vernoe_vyrazhenie_13295b2e-4496-4aac-b0ba-1a4f93ff9610": {
+    "code": "def main():\n    numbers = list(map(int, input().split()))\n    total_sum = sum(numbers)\n    expression = '+'.join(map(str, numbers))\n    result = f'{expression}={total_sum}'\n    print(result)\n​\nmain()",
+    "courseName": "Язык Python: Верное выражение на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Верное выражение",
+    "timestamp": "2025-09-26T15:45:57.926Z",
+    "url": "https://ulearn.me/course/python/Vernoe_vyrazhenie_13295b2e-4496-4aac-b0ba-1a4f93ff9610"
+  },
+  "Перебор элементов списка и строки|Индекс максимального|https://ulearn.me/course/python/Indeks_maksimal_nogo_89731afc-79ea-4bbd-ae87-bf594ae20017": {
+    "code": "def find_max_index():\n    numbers = list(map(int, input().split()))\n    max_value = max(numbers)\n    print(numbers.index(max_value) + 1)\n​\nfind_max_index()",
+    "courseName": "Язык Python: Индекс максимального на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Индекс максимального",
+    "timestamp": "2025-09-26T15:45:19.872Z",
+    "url": "https://ulearn.me/course/python/Indeks_maksimal_nogo_89731afc-79ea-4bbd-ae87-bf594ae20017"
+  },
+  "Перебор элементов списка и строки|Наибольшее отрицательное|https://ulearn.me/course/python/Naibol_shee_otritsatel_noe_eb2cdd1a-88ee-48ba-9ddf-c1a1f3c3db7a": {
+    "code": "def find_max_negative():\n    numbers = list(map(int, input().split()))\n    negative_numbers = [num for num in numbers if num < 0]\n    if not negative_numbers:\n        print(-1)\n    else:\n        print(max(negative_numbers))\n​\nfind_max_negative()",
+    "courseName": "Язык Python: Наибольшее отрицательное на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Наибольшее отрицательное",
+    "timestamp": "2025-09-26T15:45:34.232Z",
+    "url": "https://ulearn.me/course/python/Naibol_shee_otritsatel_noe_eb2cdd1a-88ee-48ba-9ddf-c1a1f3c3db7a"
+  },
+  "Перебор элементов списка и строки|Наименьшее нечетное|https://ulearn.me/course/python/Naimen_shee_nechetnoe_576df7ad-4b17-4324-b823-1959ad3d993d": {
+    "code": "def find_smallest_odd():\n    numbers = list(map(int, input().split()))\n    odd_numbers = [num for num in numbers if num % 2 != 0]\n    print(min(odd_numbers) if odd_numbers else -1)\n​\nfind_smallest_odd()",
+    "courseName": "Язык Python: Наименьшее нечетное на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Наименьшее нечетное",
+    "timestamp": "2025-09-26T15:45:24.329Z",
+    "url": "https://ulearn.me/course/python/Naimen_shee_nechetnoe_576df7ad-4b17-4324-b823-1959ad3d993d"
+  },
+  "Перебор элементов списка и строки|Неделимое отдаем Паше|https://ulearn.me/course/python/Nedelimoe_otdaem_Pashe_acf0d111-7f3b-483c-bf0f-789854ad0748": {
+    "code": "def calculate_pasha_shares():\n    oranges = list(map(int, input().split()))\n    total_shares = sum(orange % 3 for orange in oranges)\n    print(total_shares)\n​\ncalculate_pasha_shares()",
+    "courseName": "Язык Python: Неделимое отдаем Паше на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Неделимое отдаем Паше",
+    "timestamp": "2025-09-26T15:45:17.183Z",
+    "url": "https://ulearn.me/course/python/Nedelimoe_otdaem_Pashe_acf0d111-7f3b-483c-bf0f-789854ad0748"
+  },
+  "Перебор элементов списка и строки|Отрицательные числа|https://ulearn.me/course/python/Otritsatel_nye_chisla_04f648e5-4e13-4a5c-bb32-d4dedc7a8d8d": {
+    "code": "def calculate_sum():\n    numbers = list(map(int, input().split()))\n    min_number = min(numbers)\n    absolute_min = abs(min_number)\n    total_sum = sum(num for num in numbers if num <= absolute_min)\n    print(total_sum)\n​\ncalculate_sum()",
+    "courseName": "Язык Python: Отрицательные числа на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Отрицательные числа",
+    "timestamp": "2025-09-26T15:45:27.851Z",
+    "url": "https://ulearn.me/course/python/Otritsatel_nye_chisla_04f648e5-4e13-4a5c-bb32-d4dedc7a8d8d"
+  },
+  "Перебор элементов списка и строки|Прибыль|https://ulearn.me/course/python/Pribyl__c5be0df6-0929-4d68-bdb5-6f67393d18a0": {
+    "code": "def calculate_profit():\n    states = list(map(int, input().split()))\n    total_profit = states[0]\n    for i in range(1, len(states)):\n        profit = max(states[i] - states[i - 1], 0)\n        total_profit += profit\n    print(total_profit)\n​\ncalculate_profit()",
+    "courseName": "Язык Python: Прибыль на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Прибыль",
+    "timestamp": "2025-09-26T15:46:07.329Z",
+    "url": "https://ulearn.me/course/python/Pribyl__c5be0df6-0929-4d68-bdb5-6f67393d18a0"
+  },
+  "Перебор элементов списка и строки|Проверка на память|https://ulearn.me/course/python/Proverka_na_pamyat__3f554259-8fb5-4511-9fcb-4efb67817475": {
+    "code": "c = list(map(int, input().split()))\nk = int(input())\nn = len(c)\n​\nfor _ in range(k):\n    d = int(input())\n    print(c[d-1])\n​\nreversed_c = c[::-1]\nprint(*reversed_c)",
+    "courseName": "Язык Python: Проверка на память на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Проверка на память",
+    "timestamp": "2025-09-26T15:45:55.190Z",
+    "url": "https://ulearn.me/course/python/Proverka_na_pamyat__3f554259-8fb5-4511-9fcb-4efb67817475"
+  },
+  "Перебор элементов списка и строки|Пятое место|https://ulearn.me/course/python/Pyatoe_mesto_6f9b508a-2c95-427c-91b5-b116e70afeb4": {
+    "code": "n = input().split()\nn = [int(i) for i in n]\nn = sorted(n, reverse=True)\nprint(n[4])",
+    "courseName": "Язык Python: Пятое место на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Пятое место",
+    "timestamp": "2025-09-26T15:46:01.351Z",
+    "url": "https://ulearn.me/course/python/Pyatoe_mesto_6f9b508a-2c95-427c-91b5-b116e70afeb4"
+  },
+  "Перебор элементов списка и строки|Рынок|https://ulearn.me/course/python/Rynok_52295f45-59fa-416a-a0f5-0b8239b5307d": {
+    "code": "def calculate_strange_days(prices):\n    strange_days_count = 0\n    max_price = 0\n    for i in range(2, len(prices)):\n        if prices[i] > prices[i-1] + prices[i-2]:\n            strange_days_count += 1\n            max_price = max(max_price, prices[i])\n    return strange_days_count, max_price\n​\ndef main():\n    prices = list(map(int, input().split()))\n    strange_days_count, max_price = calculate_strange_days(prices)\n    if strange_days_count == 0:\n        max_price = 0\n    print(strange_days_count, max_price)\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Рынок на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Рынок",
+    "timestamp": "2025-09-26T15:46:10.176Z",
+    "url": "https://ulearn.me/course/python/Rynok_52295f45-59fa-416a-a0f5-0b8239b5307d"
+  },
+  "Перебор элементов списка и строки|Сумма счастливых чисел|https://ulearn.me/course/python/Summa_schastlivykh_chisel_dc03e289-877a-4aa6-8fe2-bfea7caad40d": {
+    "code": "def calculate_happy_numbers_sum():\n    numbers = list(map(int, input().split()))\n    happy_numbers_sum = sum(num for num in numbers if num % 7 == 0)\n    print(happy_numbers_sum)\n​\ncalculate_happy_numbers_sum()",
+    "courseName": "Язык Python: Сумма счастливых чисел на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Сумма счастливых чисел",
+    "timestamp": "2025-09-26T15:45:14.469Z",
+    "url": "https://ulearn.me/course/python/Summa_schastlivykh_chisel_dc03e289-877a-4aa6-8fe2-bfea7caad40d"
+  },
+  "Перебор элементов списка и строки|Тетрис|https://ulearn.me/course/python/Tetris_08570b7b-65b7-4f59-9fc5-04aef099fb4d": {
+    "code": "def tetris():\n    numbers = list(map(int, input().split()))\n    min_value = min(numbers)\n    result = [str(num - min_value) for num in numbers]\n    print(' '.join(result))\n​\ntetris()",
+    "courseName": "Язык Python: Тетрис на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Тетрис",
+    "timestamp": "2025-09-26T15:45:41.718Z",
+    "url": "https://ulearn.me/course/python/Tetris_08570b7b-65b7-4f59-9fc5-04aef099fb4d"
+  },
+  "Перебор элементов списка и строки|Тут место только счастливым|https://ulearn.me/course/python/Tut_mesto_tol_ko_schastlivym_f9764211-efb5-4435-b79a-4d82bc1c8852": {
+    "code": "a = list(map(int, input().split()))\nfor i in range(len(a)):\n    if i % 7 == 0 or a[i] % 7 == 0:\n        continue\n    else:\n        a[i] = -a[i]\nprint(*a)",
+    "courseName": "Язык Python: Тут место только счастливым на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Тут место только счастливым",
+    "timestamp": "2025-09-26T15:45:50.774Z",
+    "url": "https://ulearn.me/course/python/Tut_mesto_tol_ko_schastlivym_f9764211-efb5-4435-b79a-4d82bc1c8852"
+  },
+  "Перебор элементов списка и строки|Физкультурник|https://ulearn.me/course/python/Fizkul_turnik_6adacbd6-7030-4f8c-b7d6-f1fe36a7c8e3": {
+    "code": "n = list(map(int, input().split()))\na = 0\nfor i in range(1, len(n)):\n    if n[i] < n[i - 1]:\n        a += 1\nprint(a)",
+    "courseName": "Язык Python: Физкультурник на Ulearn.me",
+    "module": "Перебор элементов списка и строки",
+    "task": "Физкультурник",
+    "timestamp": "2025-09-26T15:46:04.441Z",
+    "url": "https://ulearn.me/course/python/Fizkul_turnik_6adacbd6-7030-4f8c-b7d6-f1fe36a7c8e3"
+  },
+  "Практика работы со списками|Делится на k?|https://ulearn.me/course/python/Delitsya_na_k__8702bb2e-c40d-444e-9e8a-f8da98be91f6": {
+    "code": "k = int(input())\nn = int(input())\na = list(map(int, input().split()))\ncount = 0\nfor i in range(n):\n    if a[i] % k == 0:\n        count += 1\n    print(count)",
+    "courseName": "Язык Python: Делится на k? на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Делится на k?",
+    "timestamp": "2025-09-26T15:46:53.941Z",
+    "url": "https://ulearn.me/course/python/Delitsya_na_k__8702bb2e-c40d-444e-9e8a-f8da98be91f6"
+  },
+  "Практика работы со списками|Динамический максимум|https://ulearn.me/course/python/Dinamicheskiy_maksimum_e1e9545e-d0d3-42d5-b486-07c1937522d8": {
+    "code": "import heapq\n​\nmax_heap = []\ncurrent_max = 0\n​\nwhile True:\n    num = int(input())\n    if num == -1:\n        break\n    heapq.heappush(max_heap, -num)\n    current_max = max(current_max, num)\n    print(current_max)",
+    "courseName": "Язык Python: Динамический максимум на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Динамический максимум",
+    "timestamp": "2025-09-26T15:46:56.788Z",
+    "url": "https://ulearn.me/course/python/Dinamicheskiy_maksimum_e1e9545e-d0d3-42d5-b486-07c1937522d8"
+  },
+  "Практика работы со списками|Заборчик|https://ulearn.me/course/python/Zaborchik_d86889d8-14f4-47c6-b707-331e5f8c3934": {
+    "code": "n = int(input())\na = list(map(int, input().split()))\nq = int(input())\n​\nfor _ in range(q):\n    l, r = map(int, input().split())\n    l -= 1  # переходим к 0-индексации\n    r -= 1\n    cnt = 0\n    for i in range(l + 1, r):  # только внутренние доски\n        if a[i] > a[i - 1] and a[i] > a[i + 1]:\n            cnt += 1\n    print(cnt)\n​",
+    "courseName": "Язык Python: Заборчик на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Заборчик",
+    "timestamp": "2025-09-26T15:53:35.837Z",
+    "url": "https://ulearn.me/course/python/Zaborchik_d86889d8-14f4-47c6-b707-331e5f8c3934"
+  },
+  "Практика работы со списками|Зарядка|https://ulearn.me/course/python/Zaryadka_59cd2153-8d62-45de-9d09-6be4e71dc0c5": {
+    "code": "n = int(input())\nheights = list(map(int, input().split()))\n​\nfor i in range(n):\n    count = 0\n    for j in range(i + 1, n):\n        count += 1\n        if heights[j] >= heights[i]:\n            break\n    print(count)",
+    "courseName": "Язык Python: Зарядка на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Зарядка",
+    "timestamp": "2025-09-26T15:46:48.004Z",
+    "url": "https://ulearn.me/course/python/Zaryadka_59cd2153-8d62-45de-9d09-6be4e71dc0c5"
+  },
+  "Практика работы со списками|Знакопеременная сумма|https://ulearn.me/course/python/Znakoperemennaya_summa_12ba6fb8-0f8c-4652-9227-05dc85ebf411": {
+    "code": "def calculate_alternating_sum(array, left, right):\n    return sum(array[i] * (-1 if (i - left) % 2 == 1 else 1) for i in range(left, right + 1))\n​\ndef main():\n    n = int(input())\n    array = list(map(int, input().split()))\n    q = int(input())\n    for _ in range(q):\n        left, right = map(int, input().split())\n        left -= 1\n        right -= 1\n        print(calculate_alternating_sum(array, left, right))\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Знакопеременная сумма на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Знакопеременная сумма",
+    "timestamp": "2025-09-26T15:46:43.857Z",
+    "url": "https://ulearn.me/course/python/Znakoperemennaya_summa_12ba6fb8-0f8c-4652-9227-05dc85ebf411"
+  },
+  "Практика работы со списками|Максимальная пара|https://ulearn.me/course/python/Maksimal_naya_para_40601007-7844-4b01-92eb-810f67537f6a": {
+    "code": "def get_max_pair_sum():\n    n, k = map(int, input().split())\n    a = list(map(int, input().split()))\n    max_sum = -2 * 10 ** 9\n    for i in range(n):\n        for j in range(i + 1, min(n, i + k + 1)):\n            max_sum = max(max_sum, a[i] + a[j])\n    print(max_sum)\n​\nget_max_pair_sum()",
+    "courseName": "Язык Python: Максимальная пара на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Максимальная пара",
+    "timestamp": "2025-09-26T15:46:50.911Z",
+    "url": "https://ulearn.me/course/python/Maksimal_naya_para_40601007-7844-4b01-92eb-810f67537f6a"
+  },
+  "Практика работы со списками|Счетчик|https://ulearn.me/course/python/Schetchik_39dc9600-caa1-410b-a51d-b6099d3e8049": {
+    "code": "l, r = map(int, input().split())\nn = int(input())\na = list(map(int, input().split()))\nd = {}\nfor i in a:\n    if i in d:\n        d[i] += 1\n    else:\n        d[i] = 1\nfor i in range(l, r + 1):\n    print(f\"{i}: {d.get(i, 0)}\")",
+    "courseName": "Язык Python: Счетчик на Ulearn.me",
+    "module": "Практика работы со списками",
+    "task": "Счетчик",
+    "timestamp": "2025-09-26T15:46:59.954Z",
+    "url": "https://ulearn.me/course/python/Schetchik_39dc9600-caa1-410b-a51d-b6099d3e8049"
+  },
+  "Продвинутые массивы и строки|Запрещенные слова|https://ulearn.me/course/python/Zapreshchennye_slova_c54c4153-5ced-4fc2-ae5e-49f9bb58c96a": {
+    "code": "t = input().lower().split()\nc = 0\nfor i in t:\n    if i in ['code', 'problem', 'solution', 'ok', 'wa']:\n        c += 1\nprint(c)",
+    "courseName": "Язык Python: Запрещенные слова на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Запрещенные слова",
+    "timestamp": "2025-09-26T15:46:21.288Z",
+    "url": "https://ulearn.me/course/python/Zapreshchennye_slova_c54c4153-5ced-4fc2-ae5e-49f9bb58c96a"
+  },
+  "Продвинутые массивы и строки|Изменения в массиве|https://ulearn.me/course/python/Izmeneniya_v_massive_e96e0649-1bdd-4bcb-995e-44ab039b69f3": {
+    "code": "a = list(map(int, input().split()))\nq = int(input())\nfor _ in range(q):\n    k = int(input())\n    print(*[x - x // k for x in a])",
+    "courseName": "Язык Python: Изменения в массиве на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Изменения в массиве",
+    "timestamp": "2025-09-26T15:46:34.976Z",
+    "url": "https://ulearn.me/course/python/Izmeneniya_v_massive_e96e0649-1bdd-4bcb-995e-44ab039b69f3"
+  },
+  "Продвинутые массивы и строки|Изменения в строке|https://ulearn.me/course/python/Izmeneniya_v_stroke_ac6cb2b3-59f7-4ccc-ae6d-079e97481aae": {
+    "code": "s = list(input())\nq = int(input())\nfor _ in range(q):\n    idx, c = input().split()\n    s[int(idx) - 1] = c\nprint(''.join(s))",
+    "courseName": "Язык Python: Изменения в строке на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Изменения в строке",
+    "timestamp": "2025-09-26T15:46:29.622Z",
+    "url": "https://ulearn.me/course/python/Izmeneniya_v_stroke_ac6cb2b3-59f7-4ccc-ae6d-079e97481aae"
+  },
+  "Продвинутые массивы и строки|Интересное изменение|https://ulearn.me/course/python/Interesnoe_izmenenie_52216552-8b3e-42d0-907d-f0adc7785b99": {
+    "code": "n, m = map(int, input().split())\na = list(map(int, input().split()))\nb = list(map(int, input().split()))\n​\nfor x in b:\n    if x in a:\n        a.remove(x)\n    else:\n        a.append(x)\n​\nprint(*a)",
+    "courseName": "Язык Python: Интересное изменение на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Интересное изменение",
+    "timestamp": "2025-09-26T15:46:26.753Z",
+    "url": "https://ulearn.me/course/python/Interesnoe_izmenenie_52216552-8b3e-42d0-907d-f0adc7785b99"
+  },
+  "Продвинутые массивы и строки|Красивая строка|https://ulearn.me/course/python/Krasivaya_stroka_ac2cb2b3-59f7-4ccc-ae6d-079e97481aae": {
+    "code": "s = input()\nprint('^_^'.join(s))",
+    "courseName": "Язык Python: Красивая строка на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Красивая строка",
+    "timestamp": "2025-09-26T15:46:32.288Z",
+    "url": "https://ulearn.me/course/python/Krasivaya_stroka_ac2cb2b3-59f7-4ccc-ae6d-079e97481aae"
+  },
+  "Продвинутые массивы и строки|Ну хоть как-то|https://ulearn.me/course/python/Nu_khot_kak_to_533595ba-e59b-42fb-a987-d7d0554623d5": {
+    "code": "def is_divisible(n):\n    divisors = [3, 7, 12, 29, 50, 51, 53, 75]\n    for divisor in divisors:\n        if n % divisor == 0:\n            return True\n    return False\n​\nn = int(input())\nif is_divisible(n):\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Ну хоть как-то на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Ну хоть как-то",
+    "timestamp": "2025-09-26T15:46:15.531Z",
+    "url": "https://ulearn.me/course/python/Nu_khot_kak_to_533595ba-e59b-42fb-a987-d7d0554623d5"
+  },
+  "Продвинутые массивы и строки|Отсортируй наоборот|https://ulearn.me/course/python/Otsortiruy_naoborot_c62d412f-cdff-4a7b-ac96-72d6627ecbfc": {
+    "code": "a = list(map(int, input().split()))\nq = int(input())\nfor _ in range(q):\n    k = int(input())\n    new_array = a + [k]\n    new_array.sort(reverse=True)\n    print(*new_array)",
+    "courseName": "Язык Python: Отсортируй наоборот на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Отсортируй наоборот",
+    "timestamp": "2025-09-26T15:46:37.628Z",
+    "url": "https://ulearn.me/course/python/Otsortiruy_naoborot_c62d412f-cdff-4a7b-ac96-72d6627ecbfc"
+  },
+  "Продвинутые массивы и строки|Разворот|https://ulearn.me/course/python/Razvorot_c3e0c09e-7079-421e-ba8f-ed1a271cb0ed": {
+    "code": "n = int(input())\narr = []\nfor _ in range(n):\n    arr.append(int(input()))\nfor i in range(n - 1, -1, -1):\n    print(arr[i], end=' ')",
+    "courseName": "Язык Python: Разворот на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Разворот",
+    "timestamp": "2025-09-26T15:46:24.039Z",
+    "url": "https://ulearn.me/course/python/Razvorot_c3e0c09e-7079-421e-ba8f-ed1a271cb0ed"
+  },
+  "Продвинутые массивы и строки|Число слогов|https://ulearn.me/course/python/Chislo_slogov_d72d6c9d-57bc-4d0a-93d4-3d469657ab4c": {
+    "code": "s = input().lower()\nprint(sum(1 for c in s if c in 'aeiou'))",
+    "courseName": "Язык Python: Число слогов на Ulearn.me",
+    "module": "Продвинутые массивы и строки",
+    "task": "Число слогов",
+    "timestamp": "2025-09-26T15:46:18.426Z",
+    "url": "https://ulearn.me/course/python/Chislo_slogov_d72d6c9d-57bc-4d0a-93d4-3d469657ab4c"
+  },
+  "Словари|Анаграммы|https://ulearn.me/course/python/Anagrammy_ce503a79-b402-41c3-9d54-5942950f09bf": {
+    "code": "def main():\n    n = int(input())\n    anagrams = {}\n    for _ in range(n):\n        word = input()\n        sorted_word = \"\".join(sorted(word))\n        if sorted_word in anagrams:\n            anagrams[sorted_word].append(word)\n        else:\n            anagrams[sorted_word] = [word]\n    max_set_size = max(len(words) for words in anagrams.values())\n    print(max_set_size)\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Анаграммы на Ulearn.me",
+    "module": "Словари",
+    "task": "Анаграммы",
+    "timestamp": "2025-09-26T15:48:02.205Z",
+    "url": "https://ulearn.me/course/python/Anagrammy_ce503a79-b402-41c3-9d54-5942950f09bf"
+  },
+  "Словари|Большие данные|https://ulearn.me/course/python/Bol_shie_dannye_13c056e4-09ff-48fa-a28f-6d06e428d516": {
+    "code": "n = int(input())\nd = {}\nfor _ in range(n):\n    [name, city] = input().split(':')\n    if city in d:\n        d[city].append(name)\n    else:\n        d[city] = [name]\nprint(len(d))\nfor city in sorted(d.keys()):\n    print(city, len(d[city]))\n    for name in sorted(d[city]):\n        print(name)",
+    "courseName": "Язык Python: Большие данные на Ulearn.me",
+    "module": "Словари",
+    "task": "Большие данные",
+    "timestamp": "2025-09-26T15:47:54.003Z",
+    "url": "https://ulearn.me/course/python/Bol_shie_dannye_13c056e4-09ff-48fa-a28f-6d06e428d516"
+  },
+  "Словари|Имена супругов|https://ulearn.me/course/python/Imena_suprugov_a910a4fd-edce-4b33-880b-475c64829941": {
+    "code": "n = int(input())\nspouses = {}\nfor _ in range(n):\n    person, spouse = input().split(':')\n    spouses[person] = spouse\n    spouses[spouse] = person\nm = int(input())\nfor _ in range(m):\n    person = input()\n    print(spouses.get(person, 'NO_DATA'))",
+    "courseName": "Язык Python: Имена супругов на Ulearn.me",
+    "module": "Словари",
+    "task": "Имена супругов",
+    "timestamp": "2025-09-26T15:47:50.704Z",
+    "url": "https://ulearn.me/course/python/Imena_suprugov_a910a4fd-edce-4b33-880b-475c64829941"
+  },
+  "Словари|Новый словарь|https://ulearn.me/course/python/Novyy_slovar__1c2fde28-3be1-4534-a1b9-3de31284091d": {
+    "code": "def main():\n    n = int(input())\n    dict_ab = {}\n    for _ in range(n):\n        a, b = input().split()\n        dict_ab[a] = b\n​\n    m = int(input())\n    dict_bc = {}\n    for _ in range(m):\n        b, c = input().split()\n        dict_bc[b] = c\n​\n    q = int(input())\n    for _ in range(q):\n        a = input()\n        if a in dict_ab:\n            b = dict_ab[a]\n            if b in dict_bc:\n                print(dict_bc[b])\n            else:\n                print(-1)\n        else:\n            print(-1)\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Новый словарь на Ulearn.me",
+    "module": "Словари",
+    "task": "Новый словарь",
+    "timestamp": "2025-09-26T15:47:59.566Z",
+    "url": "https://ulearn.me/course/python/Novyy_slovar__1c2fde28-3be1-4534-a1b9-3de31284091d"
+  },
+  "Словари|Уникальные маршруты|https://ulearn.me/course/python/Unikal_nye_marshruty_83f5f69f-2728-4d56-bfd3-fca8ef363cb4": {
+    "code": "def find_unique_routes():\n    n = int(input())\n    routes = {}\n    for _ in range(n):\n        route = int(input())\n        if route in routes:\n            routes[route] += 1\n        else:\n            routes[route] = 1\n​\n    unique_routes = [route for route, count in routes.items() if count == 1]\n    unique_routes.sort()\n​\n    print(len(unique_routes))\n    if unique_routes:\n        print(' '.join(map(str, unique_routes)))\n​\nfind_unique_routes()",
+    "courseName": "Язык Python: Уникальные маршруты на Ulearn.me",
+    "module": "Словари",
+    "task": "Уникальные маршруты",
+    "timestamp": "2025-09-26T15:47:56.704Z",
+    "url": "https://ulearn.me/course/python/Unikal_nye_marshruty_83f5f69f-2728-4d56-bfd3-fca8ef363cb4"
+  },
+  "Собственные функции|Морской псевдобой|https://ulearn.me/course/python/Morskoy_psevdoboy_41769d5f-e00c-4428-adb0-629af5814556": {
+    "code": "def is_valid_index(lst, index):\n    return 1 <= index <= len(lst)\n​\nn = int(input())\nfield = [1] * n\nhits = list(map(int, input().split()))\ncount = 0\nfor hit in hits:\n    if is_valid_index(field, hit):\n        if field[hit - 1] == 1:\n            count += 1\n            field[hit - 1] = 0\nprint(count)",
+    "courseName": "Язык Python: Морской псевдобой на Ulearn.me",
+    "module": "Собственные функции",
+    "task": "Морской псевдобой",
+    "timestamp": "2025-09-26T15:47:22.399Z",
+    "url": "https://ulearn.me/course/python/Morskoy_psevdoboy_41769d5f-e00c-4428-adb0-629af5814556"
+  },
+  "Собственные функции|Разворот последовательности|https://ulearn.me/course/python/Razvorot_posledovatel_nosti_9ee9b14d-d649-433e-a27a-11d548b008a1": {
+    "code": "def reverse_sequence():\n    num = int(input())\n    if num == -1:\n        return\n    reverse_sequence()\n    if num != -1:\n        print(num)\n​\nreverse_sequence()",
+    "courseName": "Язык Python: Разворот последовательности на Ulearn.me",
+    "module": "Собственные функции",
+    "task": "Разворот последовательности",
+    "timestamp": "2025-09-26T15:47:28.003Z",
+    "url": "https://ulearn.me/course/python/Razvorot_posledovatel_nosti_9ee9b14d-d649-433e-a27a-11d548b008a1"
+  },
+  "Собственные функции|Сумма цифр|https://ulearn.me/course/python/Summa_tsifr_96ef6f87-25ca-4ac0-8acc-77b81c7f789a": {
+    "code": "def sum_of_digits(n):\n    return sum(int(digit) for digit in str(n))\n​\nnumbers = list(map(int, input().split()))\ntotal_sum = sum(sum_of_digits(num) for num in numbers if num % 2 != 0)\nprint(total_sum)",
+    "courseName": "Язык Python: Сумма цифр на Ulearn.me",
+    "module": "Собственные функции",
+    "task": "Сумма цифр",
+    "timestamp": "2025-09-26T15:47:19.448Z",
+    "url": "https://ulearn.me/course/python/Summa_tsifr_96ef6f87-25ca-4ac0-8acc-77b81c7f789a"
+  },
+  "Собственные функции|Трибоначчи|https://ulearn.me/course/python/Tribonachchi_7d25e08b-0b2c-4822-bcc0-feedd62838ff": {
+    "code": "def tribonacci(n):\n    trib = [1, 1, 4]\n    if n <= 2:\n        return trib[n]\n    for i in range(3, n + 1):\n        trib.append(trib[i - 1] + trib[i - 2] * 3)\n    return trib[n]\n​\nprint(tribonacci(int(input())))",
+    "courseName": "Язык Python: Трибоначчи на Ulearn.me",
+    "module": "Собственные функции",
+    "task": "Трибоначчи",
+    "timestamp": "2025-09-26T15:47:25.185Z",
+    "url": "https://ulearn.me/course/python/Tribonachchi_7d25e08b-0b2c-4822-bcc0-feedd62838ff"
+  },
+  "Список|Где \"Я\"?|https://ulearn.me/course/python/Gde_Ya__a049d02b-86e8-46e1-bbd0-330f907b73d8": {
+    "code": "s = input().split()\nif 'I' in s:\n    print(s.index('I') + 1)\nelse:\n    print(-1)",
+    "courseName": "Язык Python: Где \"Я\"? на Ulearn.me",
+    "module": "Список",
+    "task": "Где \"Я\"?",
+    "timestamp": "2025-09-26T15:44:39.236Z",
+    "url": "https://ulearn.me/course/python/Gde_Ya__a049d02b-86e8-46e1-bbd0-330f907b73d8"
+  },
+  "Список|Друзья Димы|https://ulearn.me/course/python/Druz_ya_Dimy_70197c95-454c-4538-a9b0-64e5fce7011f": {
+    "code": "a, b, c = map(int, input().split())\nprint(max(a + b, a + c, b + c))",
+    "courseName": "Язык Python: Друзья Димы на Ulearn.me",
+    "module": "Список",
+    "task": "Друзья Димы",
+    "timestamp": "2025-09-26T15:45:05.761Z",
+    "url": "https://ulearn.me/course/python/Druz_ya_Dimy_70197c95-454c-4538-a9b0-64e5fce7011f"
+  },
+  "Список|Количество слов|https://ulearn.me/course/python/Kolichestvo_slov_4f86099e-16cc-4c7e-bbca-777042de2954": {
+    "code": "s = input()\nprint(len(s.split()))",
+    "courseName": "Язык Python: Количество слов на Ulearn.me",
+    "module": "Список",
+    "task": "Количество слов",
+    "timestamp": "2025-09-26T15:44:31.533Z",
+    "url": "https://ulearn.me/course/python/Kolichestvo_slov_4f86099e-16cc-4c7e-bbca-777042de2954"
+  },
+  "Список|Количество счастливых чисел|https://ulearn.me/course/python/Kolichestvo_schastlivykh_chisel_114e30a6-f4ef-4cb8-860e-442b22957f70": {
+    "code": "def count_happy_numbers():\n    numbers = list(map(int, input().split()))\n    happy_count = sum(1 for num in numbers if num % 7 == 0)\n    print(happy_count)\n​\ncount_happy_numbers()",
+    "courseName": "Язык Python: Количество счастливых чисел на Ulearn.me",
+    "module": "Список",
+    "task": "Количество счастливых чисел",
+    "timestamp": "2025-09-26T15:44:50.216Z",
+    "url": "https://ulearn.me/course/python/Kolichestvo_schastlivykh_chisel_114e30a6-f4ef-4cb8-860e-442b22957f70"
+  },
+  "Список|Слово \"Я\"|https://ulearn.me/course/python/Slovo_Ya__abe58440-77c8-4fba-b36d-8f4043cae884": {
+    "code": "def count_i():\n    sentence = input().split()\n    count = 0\n    for word in sentence:\n        if word == 'I':\n            count += 1\n    print(count)\n​\ncount_i()",
+    "courseName": "Язык Python: Слово \"Я\" на Ulearn.me",
+    "module": "Список",
+    "task": "Слово \"Я\"",
+    "timestamp": "2025-09-26T15:44:27.255Z",
+    "url": "https://ulearn.me/course/python/Slovo_Ya__abe58440-77c8-4fba-b36d-8f4043cae884"
+  },
+  "Список|Старая добрая|https://ulearn.me/course/python/Staraya_dobraya_76365efe-1738-46a3-8430-503dc205157d": {
+    "code": "a, b = map(int, input().split())\nprint(a + b)",
+    "courseName": "Язык Python: Старая добрая на Ulearn.me",
+    "module": "Список",
+    "task": "Старая добрая",
+    "timestamp": "2025-09-26T15:44:53.031Z",
+    "url": "https://ulearn.me/course/python/Staraya_dobraya_76365efe-1738-46a3-8430-503dc205157d"
+  },
+  "Список|Сумма|https://ulearn.me/course/python/Summa_eceb05a4-ce85-47fc-b4a2-bcd379f5a50b": {
+    "code": "def calculate_sum():\n    numbers = list(map(int, input().split()))\n    total_sum = sum(numbers)\n    print(total_sum)\n​\ncalculate_sum()",
+    "courseName": "Язык Python: Сумма на Ulearn.me",
+    "module": "Список",
+    "task": "Сумма",
+    "timestamp": "2025-09-26T15:44:44.642Z",
+    "url": "https://ulearn.me/course/python/Summa_eceb05a4-ce85-47fc-b4a2-bcd379f5a50b"
+  },
+  "Список|Широкий массив|https://ulearn.me/course/python/Shirokiy_massiv_10383ca6-1dfd-4d30-a2b1-2bb32cb86c78": {
+    "code": "def calculate_array_width():\n    array = list(map(int, input().split()))\n    width = max(array) - min(array)\n    print(width)\n​\ncalculate_array_width()",
+    "courseName": "Язык Python: Широкий массив на Ulearn.me",
+    "module": "Список",
+    "task": "Широкий массив",
+    "timestamp": "2025-09-26T15:44:47.448Z",
+    "url": "https://ulearn.me/course/python/Shirokiy_massiv_10383ca6-1dfd-4d30-a2b1-2bb32cb86c78"
+  },
+  "Список|Яблоки и груши|https://ulearn.me/course/python/Yabloki_i_grushi_ae4e4091-30c5-4427-8bf5-a9e790348a8d": {
+    "code": "a, b, A, B = map(int, input().split())\napple_packages = A // a\npear_packages = B // b\nprint(apple_packages + pear_packages)",
+    "courseName": "Язык Python: Яблоки и груши на Ulearn.me",
+    "module": "Список",
+    "task": "Яблоки и груши",
+    "timestamp": "2025-09-26T15:44:55.718Z",
+    "url": "https://ulearn.me/course/python/Yabloki_i_grushi_ae4e4091-30c5-4427-8bf5-a9e790348a8d"
+  },
+  "Список|Яркие слова|https://ulearn.me/course/python/Yarkie_slova_22b48567-cf12-4165-9b63-934c923610e5": {
+    "code": "def count_bright_words(sentence):\n    return sum(1 for word in sentence.split() if word.isupper())\n​\nprint(count_bright_words(input()))",
+    "courseName": "Язык Python: Яркие слова на Ulearn.me",
+    "module": "Список",
+    "task": "Яркие слова",
+    "timestamp": "2025-09-26T15:44:41.891Z",
+    "url": "https://ulearn.me/course/python/Yarkie_slova_22b48567-cf12-4165-9b63-934c923610e5"
+  },
+  "Строка|Буря|https://ulearn.me/course/python/Burya_622c35c8-45d0-4b9d-8923-a9899a1b6734": {
+    "code": "verse = \"thunder \" * 13 + \"thunder feel the thunder lightning and the thunder thunder feel the thunder lightning and the thunder\"\nprint(verse)\nprint(verse)\nprint(verse)",
+    "courseName": "Язык Python: Буря на Ulearn.me",
+    "module": "Строка",
+    "task": "Буря",
+    "timestamp": "2025-09-26T15:41:19.461Z",
+    "url": "https://ulearn.me/course/python/Burya_622c35c8-45d0-4b9d-8923-a9899a1b6734"
+  },
+  "Строка|Бусы|https://ulearn.me/course/python/Busy_2a1bba6d-7562-4c6b-9c57-1b391fc7d772": {
+    "code": "print('-O' * 40, '-', sep='')",
+    "courseName": "Язык Python: Бусы на Ulearn.me",
+    "module": "Строка",
+    "task": "Бусы",
+    "timestamp": "2025-09-26T15:41:08.149Z",
+    "url": "https://ulearn.me/course/python/Busy_2a1bba6d-7562-4c6b-9c57-1b391fc7d772"
+  },
+  "Строка|Гугол|https://ulearn.me/course/python/Gugol_d4a6c6bf-7925-492a-b9d0-d3babc115f1f": {
+    "code": "print(10**100)",
+    "courseName": "Язык Python: Гугол на Ulearn.me",
+    "module": "Строка",
+    "task": "Гугол",
+    "timestamp": "2025-09-26T15:41:33.608Z",
+    "url": "https://ulearn.me/course/python/Gugol_d4a6c6bf-7925-492a-b9d0-d3babc115f1f"
+  },
+  "Строка|Два метода|https://ulearn.me/course/python/Dva_metoda_0562cddf-1974-422a-9961-2f6d94b28a6d": {
+    "code": "a = int(input())\nb = int(input())\nc = int(str(a) + str(b))\nd = a + b\nprint(c - d)",
+    "courseName": "Язык Python: Два метода на Ulearn.me",
+    "module": "Строка",
+    "task": "Два метода",
+    "timestamp": "2025-09-26T15:41:36.566Z",
+    "url": "https://ulearn.me/course/python/Dva_metoda_0562cddf-1974-422a-9961-2f6d94b28a6d"
+  },
+  "Строка|Звездочки|https://ulearn.me/course/python/Zvezdochki_43951a68-6128-4d14-9d48-393d4f50af97": {
+    "code": "print('*' * 150)",
+    "courseName": "Язык Python: Звездочки на Ulearn.me",
+    "module": "Строка",
+    "task": "Звездочки",
+    "timestamp": "2025-09-26T15:41:02.517Z",
+    "url": "https://ulearn.me/course/python/Zvezdochki_43951a68-6128-4d14-9d48-393d4f50af97"
+  },
+  "Строка|Здравствуйте!|https://ulearn.me/course/python/Zdravstvuyte__8f054c16-4d3d-4a63-a638-d89c3aef6890": {
+    "code": "name = input()\nprint('Hello, ' + name)",
+    "courseName": "Язык Python: Здравствуйте! на Ulearn.me",
+    "module": "Строка",
+    "task": "Здравствуйте!",
+    "timestamp": "2025-09-26T15:41:22.413Z",
+    "url": "https://ulearn.me/course/python/Zdravstvuyte__8f054c16-4d3d-4a63-a638-d89c3aef6890"
+  },
+  "Строка|Комбо|https://ulearn.me/course/python/Kombo_75e77234-4e27-494d-9597-38b3f6d1e980": {
+    "code": "n = int(input())\nm = int(input())\ncombo = 'r' * n + 'u'\nresult = combo * m\nprint(result)",
+    "courseName": "Язык Python: Комбо на Ulearn.me",
+    "module": "Строка",
+    "task": "Комбо",
+    "timestamp": "2025-09-26T15:41:13.857Z",
+    "url": "https://ulearn.me/course/python/Kombo_75e77234-4e27-494d-9597-38b3f6d1e980"
+  },
+  "Строка|Министерство правды|https://ulearn.me/course/python/Ministerstvo_pravdy_6e024c10-3cb7-4c86-b413-56a1824e56c4": {
+    "code": "for _ in range(10):\n    print('False', end=' ')",
+    "courseName": "Язык Python: Министерство правды на Ulearn.me",
+    "module": "Строка",
+    "task": "Министерство правды",
+    "timestamp": "2025-09-26T15:41:05.442Z",
+    "url": "https://ulearn.me/course/python/Ministerstvo_pravdy_6e024c10-3cb7-4c86-b413-56a1824e56c4"
+  },
+  "Строка|Молодец!|https://ulearn.me/course/python/Molodets__25012d1f-7baf-47d6-862b-b46c89b8926c": {
+    "code": "n = int(input())\nprint(' '.join(['perfect'] * n))",
+    "courseName": "Язык Python: Молодец! на Ulearn.me",
+    "module": "Строка",
+    "task": "Молодец!",
+    "timestamp": "2025-09-26T15:41:11.073Z",
+    "url": "https://ulearn.me/course/python/Molodets__25012d1f-7baf-47d6-862b-b46c89b8926c"
+  },
+  "Строка|Пароль|https://ulearn.me/course/python/Parol__23232e32-c284-453a-a8eb-005653601248": {
+    "code": "a = input()\nb = input()\nc = input()\nif c in [a, b, a + b, b + a]:\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Пароль на Ulearn.me",
+    "module": "Строка",
+    "task": "Пароль",
+    "timestamp": "2025-09-26T15:41:44.934Z",
+    "url": "https://ulearn.me/course/python/Parol__23232e32-c284-453a-a8eb-005653601248"
+  },
+  "Строка|Печатный станок|https://ulearn.me/course/python/Pechatnyy_stanok_ed188d92-ccef-42a5-baf6-cd2e15596a76": {
+    "code": "n = int(input())\ns = input()\nprint(' '.join([s] * n))",
+    "courseName": "Язык Python: Печатный станок на Ulearn.me",
+    "module": "Строка",
+    "task": "Печатный станок",
+    "timestamp": "2025-09-26T15:41:31.008Z",
+    "url": "https://ulearn.me/course/python/Pechatnyy_stanok_ed188d92-ccef-42a5-baf6-cd2e15596a76"
+  },
+  "Строка|Робот|https://ulearn.me/course/python/Robot_3fe1490d-584e-42f3-bf6b-1a4c1587b20f": {
+    "code": "n = int(input())\ns = 'U' * 5 + 'R' * 5 + 'D' * 5 + 'L' * 5\nprint(s * n)",
+    "courseName": "Язык Python: Робот на Ulearn.me",
+    "module": "Строка",
+    "task": "Робот",
+    "timestamp": "2025-09-26T15:41:16.767Z",
+    "url": "https://ulearn.me/course/python/Robot_3fe1490d-584e-42f3-bf6b-1a4c1587b20f"
+  },
+  "Строка|Сказка|https://ulearn.me/course/python/Skazka_7340bc17-0b4b-4063-a6f5-dd1a741c5e11": {
+    "code": "n = int(input())\nstory = []\nfor _ in range(n):\n    story.append(input())\nprint(' '.join(story))",
+    "courseName": "Язык Python: Сказка на Ulearn.me",
+    "module": "Строка",
+    "task": "Сказка",
+    "timestamp": "2025-09-26T15:41:51.243Z",
+    "url": "https://ulearn.me/course/python/Skazka_7340bc17-0b4b-4063-a6f5-dd1a741c5e11"
+  },
+  "Строка|Словарь|https://ulearn.me/course/python/Slovar__afbba358-ec24-4346-993e-8be6c7f5a9e8": {
+    "code": "s1 = input()\ns2 = input()\nif s1 < s2:\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Словарь на Ulearn.me",
+    "module": "Строка",
+    "task": "Словарь",
+    "timestamp": "2025-09-26T15:41:42.174Z",
+    "url": "https://ulearn.me/course/python/Slovar__afbba358-ec24-4346-993e-8be6c7f5a9e8"
+  },
+  "Строка|Утка|https://ulearn.me/course/python/Utka_8ad12410-7b87-42f4-8533-4b88a4bc161d": {
+    "code": "n = int(input())\nt = input()\nprint(sum(1 for _ in range(n) if input() == t))",
+    "courseName": "Язык Python: Утка на Ulearn.me",
+    "module": "Строка",
+    "task": "Утка",
+    "timestamp": "2025-09-26T15:41:48.601Z",
+    "url": "https://ulearn.me/course/python/Utka_8ad12410-7b87-42f4-8533-4b88a4bc161d"
+  },
+  "Строка|Хитрая сумма|https://ulearn.me/course/python/Khitraya_summa_773aac11-f868-4551-a2b6-d5612eba6722": {
+    "code": "def main():\n    n = int(input())\n    a = int(input())\n    m = int(input())\n    b = int(input())\n    print(int(str(a) * n) + int(str(b) * m))\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Хитрая сумма на Ulearn.me",
+    "module": "Строка",
+    "task": "Хитрая сумма",
+    "timestamp": "2025-09-26T15:41:39.434Z",
+    "url": "https://ulearn.me/course/python/Khitraya_summa_773aac11-f868-4551-a2b6-d5612eba6722"
+  },
+  "Строка|Это комбо|https://ulearn.me/course/python/Eto_kombo_23e17373-4c50-4e5d-b876-88960f07fbbf": {
+    "code": "a = input()\nb = input()\nprint(f'{a} and {b} are {a}{b} together')",
+    "courseName": "Язык Python: Это комбо на Ulearn.me",
+    "module": "Строка",
+    "task": "Это комбо",
+    "timestamp": "2025-09-26T15:41:28.315Z",
+    "url": "https://ulearn.me/course/python/Eto_kombo_23e17373-4c50-4e5d-b876-88960f07fbbf"
+  },
+  "Строка|Это любовь|https://ulearn.me/course/python/Eto_lyubov__ed5d33c2-6890-421c-8d87-21e3e8e0546b": {
+    "code": "a = input()\nb = input()\nprint('love:', a, b)",
+    "courseName": "Язык Python: Это любовь на Ulearn.me",
+    "module": "Строка",
+    "task": "Это любовь",
+    "timestamp": "2025-09-26T15:41:25.454Z",
+    "url": "https://ulearn.me/course/python/Eto_lyubov__ed5d33c2-6890-421c-8d87-21e3e8e0546b"
+  },
+  "Управление for|Волшебные тройки|https://ulearn.me/course/python/Volshebnye_troyki_d786b3dd-7c57-4e10-b112-7420ca64d002": {
+    "code": "n = int(input())\nprint((n - 1) * (n - 2) // 2)",
+    "courseName": "Язык Python: Волшебные тройки на Ulearn.me",
+    "module": "Управление for",
+    "task": "Волшебные тройки",
+    "timestamp": "2025-09-26T15:40:53.969Z",
+    "url": "https://ulearn.me/course/python/Volshebnye_troyki_d786b3dd-7c57-4e10-b112-7420ca64d002"
+  },
+  "Управление for|Делится на оба|https://ulearn.me/course/python/Delitsya_na_oba_cd4d9f72-f704-4327-8dd4-0c4335c08dc7": {
+    "code": "import math\n​\ndef main():\n    a = int(input())\n    b = int(input())\n    print(a * b // math.gcd(a, b))\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Делится на оба на Ulearn.me",
+    "module": "Управление for",
+    "task": "Делится на оба",
+    "timestamp": "2025-09-26T15:40:42.223Z",
+    "url": "https://ulearn.me/course/python/Delitsya_na_oba_cd4d9f72-f704-4327-8dd4-0c4335c08dc7"
+  },
+  "Управление for|Загадочные числа древнего мудреца|https://ulearn.me/course/python/Zagadochnye_chisla_drevnego_mudretsa_00304411-3093-4531-bfbb-4c496b0e906e": {
+    "code": "def find_magic_number(n):\n    count = 0\n    num = 1\n    while True:\n        if num % 2 != 0 and num % 3 != 0 and num % 5 != 0:\n            count += 1\n            if count == n:\n                return num\n        num += 1\n​\nn = int(input())\nprint(find_magic_number(n))",
+    "courseName": "Язык Python: Загадочные числа древнего мудреца на Ulearn.me",
+    "module": "Управление for",
+    "task": "Загадочные числа древнего мудреца",
+    "timestamp": "2025-09-26T15:40:48.524Z",
+    "url": "https://ulearn.me/course/python/Zagadochnye_chisla_drevnego_mudretsa_00304411-3093-4531-bfbb-4c496b0e906e"
+  },
+  "Управление for|Не делящиеся|https://ulearn.me/course/python/Ne_delyashchiesya_7f25962c-9fee-4a04-895b-9643c39c68b0": {
+    "code": "n = int(input())\nfor i in range(1, n + 1):\n    if i % 2 != 0 or i % 3 != 0:\n        print(i)",
+    "courseName": "Язык Python: Не делящиеся на Ulearn.me",
+    "module": "Управление for",
+    "task": "Не делящиеся",
+    "timestamp": "2025-09-26T15:40:56.712Z",
+    "url": "https://ulearn.me/course/python/Ne_delyashchiesya_7f25962c-9fee-4a04-895b-9643c39c68b0"
+  },
+  "Управление for|Первый делитель|https://ulearn.me/course/python/Pervyy_delitel__345b5946-ec6d-468d-acdd-554cc0721c2d": {
+    "code": "import math\n​\ndef find_min_divisor():\n    n = int(input())\n    for i in range(2, int(math.sqrt(n)) + 1):\n        if n % i == 0:\n            print(i)\n            return\n    print(n)\n​\nfind_min_divisor()",
+    "courseName": "Язык Python: Первый делитель на Ulearn.me",
+    "module": "Управление for",
+    "task": "Первый делитель",
+    "timestamp": "2025-09-26T15:40:45.864Z",
+    "url": "https://ulearn.me/course/python/Pervyy_delitel__345b5946-ec6d-468d-acdd-554cc0721c2d"
+  },
+  "Управление for|Странные операции|https://ulearn.me/course/python/Strannye_operatsii_ac411cd7-f424-40bc-b084-eb3299d410c1": {
+    "code": "def strange_operation(n):\n    for _ in range(n):\n        a = int(input())\n        if a % 2 == 0:\n            print(a)\n        else:\n            product = 1\n            for k in range(1, a):\n                product *= k\n            print(product)\n​\nn = int(input())\nstrange_operation(n)",
+    "courseName": "Язык Python: Странные операции на Ulearn.me",
+    "module": "Управление for",
+    "task": "Странные операции",
+    "timestamp": "2025-09-26T15:40:51.274Z",
+    "url": "https://ulearn.me/course/python/Strannye_operatsii_ac411cd7-f424-40bc-b084-eb3299d410c1"
+  },
+  "Условные конструкции — 2|Агент X|https://ulearn.me/course/python/Agent_X_baa709a2-bba2-4215-911d-04af35d979d7": {
+    "code": "a = int(input())\nif (a // 10 == 5 and a % 10 != 5) or (a // 10 != 5 and a % 10 == 5):\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Агент X на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Агент X",
+    "timestamp": "2025-09-26T15:39:21.058Z",
+    "url": "https://ulearn.me/course/python/Agent_X_baa709a2-bba2-4215-911d-04af35d979d7"
+  },
+  "Условные конструкции — 2|Билеты на автобус|https://ulearn.me/course/python/Bilety_na_avtobus_e2bc44c6-11f0-413f-8160-282474295e85": {
+    "code": "x = int(input())\nn = int(input())\ntotal_cost = (n + 1) * x\nprint(total_cost, n + 1)",
+    "courseName": "Язык Python: Билеты на автобус на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Билеты на автобус",
+    "timestamp": "2025-09-26T15:39:12.864Z",
+    "url": "https://ulearn.me/course/python/Bilety_na_avtobus_e2bc44c6-11f0-413f-8160-282474295e85"
+  },
+  "Условные конструкции — 2|В чем ошибка?|https://ulearn.me/course/python/V_chem_oshibka__0793b92c-5134-414b-af74-49198737ed9b": {
+    "code": "a = int(input())\nb = int(input())\nc = int(input())\nif c == a + b:\n    print('+')\nelif c == a - b or c == b - a:\n    print('-')\nelse:\n    print(':(')",
+    "courseName": "Язык Python: В чем ошибка? на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "В чем ошибка?",
+    "timestamp": "2025-09-26T15:39:26.330Z",
+    "url": "https://ulearn.me/course/python/V_chem_oshibka__0793b92c-5134-414b-af74-49198737ed9b"
+  },
+  "Условные конструкции — 2|Времена года|https://ulearn.me/course/python/Vremena_goda_004bddd8-d5da-443c-a0df-d95261c68785": {
+    "code": "def get_season(month):\n    seasons = {\n        12: 'winter', 1: 'winter', 2: 'winter',\n        3: 'spring', 4: 'spring', 5: 'spring',\n        6: 'summer', 7: 'summer', 8: 'summer',\n        9: 'autumn', 10: 'autumn', 11: 'autumn'\n    }\n    return seasons[int(month)]\n​\nprint(get_season(input()))",
+    "courseName": "Язык Python: Времена года на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Времена года",
+    "timestamp": "2025-09-26T15:39:23.767Z",
+    "url": "https://ulearn.me/course/python/Vremena_goda_004bddd8-d5da-443c-a0df-d95261c68785"
+  },
+  "Условные конструкции — 2|Городская больница|https://ulearn.me/course/python/Gorodskaya_bol_nitsa_d56d743d-1930-4162-945b-47b78ecc2746": {
+    "code": "def can_visit_hospital(district, day):\n    if day % 7 == 0:\n        return False\n    if district == 1:\n        return day % 2 == 0\n    elif district == 2:\n        return day % 2 != 0\n    else:\n        return day % 3 == 0\n​\ndistrict = int(input())\nday = int(input())\nprint('yes' if can_visit_hospital(district, day) else 'no')",
+    "courseName": "Язык Python: Городская больница на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Городская больница",
+    "timestamp": "2025-09-26T15:39:32.170Z",
+    "url": "https://ulearn.me/course/python/Gorodskaya_bol_nitsa_d56d743d-1930-4162-945b-47b78ecc2746"
+  },
+  "Условные конструкции — 2|Красивая пара|https://ulearn.me/course/python/Krasivaya_para_e5e9569a-e47e-4a2c-a389-8b6c7db262de": {
+    "code": "a = int(input())\nb = int(input())\ncount = 0\nif a % 7 == 0:\n    count += 1\n    if b % 3 == 0:\n        count += 1\nprint(count)",
+    "courseName": "Язык Python: Красивая пара на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Красивая пара",
+    "timestamp": "2025-09-26T15:39:18.387Z",
+    "url": "https://ulearn.me/course/python/Krasivaya_para_e5e9569a-e47e-4a2c-a389-8b6c7db262de"
+  },
+  "Условные конструкции — 2|Сравнение чисел|https://ulearn.me/course/python/Sravnenie_chisel_ce8fa6cd-ba7c-4e73-bcef-3f167c4af2ee": {
+    "code": "a = int(input())\nb = int(input())\nif a < b:\n    print(f\"{a} is less than {b}\")\nelif a > b:\n    print(f\"{a} is greater than {b}\")\nelse:\n    print(f\"{a} is equal to {b}\")",
+    "courseName": "Язык Python: Сравнение чисел на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Сравнение чисел",
+    "timestamp": "2025-09-26T15:39:15.502Z",
+    "url": "https://ulearn.me/course/python/Sravnenie_chisel_ce8fa6cd-ba7c-4e73-bcef-3f167c4af2ee"
+  },
+  "Условные конструкции — 2|Транспортировка|https://ulearn.me/course/python/Transportirovka_7a28babf-3454-467f-a763-44d937b2396c": {
+    "code": "def check_divisibility():\n    a = int(input())\n    b = int(input())\n    possible_b = [b - 1, b, b + 1]\n    for possible in possible_b:\n        if possible > 0 and a % possible == 0:\n            print('YES')\n            return\n    print('NO')\n​\ncheck_divisibility()",
+    "courseName": "Язык Python: Транспортировка на Ulearn.me",
+    "module": "Условные конструкции — 2",
+    "task": "Транспортировка",
+    "timestamp": "2025-09-26T15:39:29.726Z",
+    "url": "https://ulearn.me/course/python/Transportirovka_7a28babf-3454-467f-a763-44d937b2396c"
+  },
+  "Условные конструкции|HTTP коды|https://ulearn.me/course/python/HTTP_kody_42f58426-e937-4fc3-83b2-6b1a5b71e7a9": {
+    "code": "x = int(input())\nif x == 200:\n    print('OK')\nelif x == 404:\n    print('Not Found')\nelif x == 501:\n    print('Not implemented')\nelif 200 < x < 300:\n    print('Success')\nelif 500 <= x < 600 and x != 501:\n    print('Server error')\nelse:\n    print('501')",
+    "courseName": "Язык Python: HTTP коды на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "HTTP коды",
+    "timestamp": "2025-09-26T15:39:05.684Z",
+    "url": "https://ulearn.me/course/python/HTTP_kody_42f58426-e937-4fc3-83b2-6b1a5b71e7a9"
+  },
+  "Условные конструкции|Вердикт|https://ulearn.me/course/python/Verdikt_9962be69-a377-444f-ba90-a327810fb3a3": {
+    "code": "t = int(input())\nm = int(input())\nif m > 64:\n    print('ML')\nelif t > 2000:\n    print('TL')\nelse:\n    print('OK')\n​\n​\n​",
+    "courseName": "Язык Python: Вердикт на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Вердикт",
+    "timestamp": "2025-09-26T15:39:01.781Z",
+    "url": "https://ulearn.me/course/python/Verdikt_9962be69-a377-444f-ba90-a327810fb3a3"
+  },
+  "Условные конструкции|Знак числа|https://ulearn.me/course/python/Znak_chisla_e2731ae9-d26a-4e7a-9be4-f578e34f0565": {
+    "code": "n = int(input())\nif n > 0:\n    print('+')\nelif n < 0:\n    print('-')\nelse:\n    print('0')",
+    "courseName": "Язык Python: Знак числа на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Знак числа",
+    "timestamp": "2025-09-26T15:38:53.392Z",
+    "url": "https://ulearn.me/course/python/Znak_chisla_e2731ae9-d26a-4e7a-9be4-f578e34f0565"
+  },
+  "Условные конструкции|Маркеры|https://ulearn.me/course/python/Markery_7de01598-9a60-4180-bbba-1652f7664084": {
+    "code": "import sys\n​\ndef main():\n    data = sys.stdin.read().strip().split()\n    if len(data) < 4:\n        return\n    a, b, c, d = map(int, data[:4])\n    if 2 * (a + b) == 2 * (c + d):\n        print(\"ok\")\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Маркеры на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Маркеры",
+    "timestamp": "2025-09-26T15:38:32.670Z",
+    "url": "https://ulearn.me/course/python/Markery_7de01598-9a60-4180-bbba-1652f7664084"
+  },
+  "Условные конструкции|Минимум|https://ulearn.me/course/python/Minimum_cc20edfe-e42d-4789-ad7e-42471a6e10a1": {
+    "code": "x = int(input())\ny = int(input())\nprint(min(x, y))\n​\n​\n​",
+    "courseName": "Язык Python: Минимум на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Минимум",
+    "timestamp": "2025-09-26T15:38:45.114Z",
+    "url": "https://ulearn.me/course/python/Minimum_cc20edfe-e42d-4789-ad7e-42471a6e10a1"
+  },
+  "Условные конструкции|Обрезка|https://ulearn.me/course/python/Obrezka_af349ab3-4c0d-4125-990c-a6b444c1c26a": {
+    "code": "A = int(input())\nprint(A if A <= 50 else 50)\n​\n​\n​",
+    "courseName": "Язык Python: Обрезка на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Обрезка",
+    "timestamp": "2025-09-26T15:38:42.132Z",
+    "url": "https://ulearn.me/course/python/Obrezka_af349ab3-4c0d-4125-990c-a6b444c1c26a"
+  },
+  "Условные конструкции|Подели, если сможешь|https://ulearn.me/course/python/Podeli_esli_smozhesh__ae8436c9-83e1-4fbf-be96-fefae3b7a78b": {
+    "code": "​\nimport sys\n​\ndata = sys.stdin.read().strip().split()\nif not data:\n    sys.exit(0)\n​\nx = int(data[0])\nprint(x // 2 if x % 2 == 0 else x)\n​\n​",
+    "courseName": "Язык Python: Подели, если сможешь на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Подели, если сможешь",
+    "timestamp": "2025-09-26T15:38:38.934Z",
+    "url": "https://ulearn.me/course/python/Podeli_esli_smozhesh__ae8436c9-83e1-4fbf-be96-fefae3b7a78b"
+  },
+  "Условные конструкции|Стратегия|https://ulearn.me/course/python/Strategiya_fa0e5533-5908-42a1-8244-711cbe3b2ce8": {
+    "code": "a = int(input())\nb = int(input())\nif b >= a:\n    print('YES')\nelse:\n    print('NO')\n​\n​\n​",
+    "courseName": "Язык Python: Стратегия на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Стратегия",
+    "timestamp": "2025-09-26T15:38:50.587Z",
+    "url": "https://ulearn.me/course/python/Strategiya_fa0e5533-5908-42a1-8244-711cbe3b2ce8"
+  },
+  "Условные конструкции|Сумма|https://ulearn.me/course/python/Summa_43c1b76e-f13d-4344-a31c-9c7fd333981e": {
+    "code": "import sys\n​\ndef main():\n    data = sys.stdin.read().strip().split()\n    if not data:\n        return\n    x = int(data[0])\n    print(x if x % 2 == 0 else x * 2)\n​\nif __name__ == \"__main__\":\n    main()\n​\n​\n​",
+    "courseName": "Язык Python: Сумма на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Сумма",
+    "timestamp": "2025-09-26T15:38:36.149Z",
+    "url": "https://ulearn.me/course/python/Summa_43c1b76e-f13d-4344-a31c-9c7fd333981e"
+  },
+  "Условные конструкции|Тесты|https://ulearn.me/course/python/Testy_1d7ecee7-3d74-48d6-be73-33b945e28e6e": {
+    "code": "a = int(input())\nb = int(input())\nc = int(input())\nif a + b == c:\n    print('YES')\nelse:\n    print('NO')\n​\n​\n​",
+    "courseName": "Язык Python: Тесты на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Тесты",
+    "timestamp": "2025-09-26T15:38:47.830Z",
+    "url": "https://ulearn.me/course/python/Testy_1d7ecee7-3d74-48d6-be73-33b945e28e6e"
+  },
+  "Условные конструкции|Угадал?|https://ulearn.me/course/python/Ugadal__eaa5691c-e0b3-4fff-989a-ac0f6c93fa6d": {
+    "code": "import sys\n​\ndef main():\n    data = sys.stdin.read().split()\n    if len(data) >= 2:\n        a = int(data[0])\n        b = int(data[1])\n        if a == b:\n            print(\"CORRECT\")\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Угадал? на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Угадал?",
+    "timestamp": "2025-09-26T15:38:22.650Z",
+    "url": "https://ulearn.me/course/python/Ugadal__eaa5691c-e0b3-4fff-989a-ac0f6c93fa6d"
+  },
+  "Условные конструкции|Цвет|https://ulearn.me/course/python/Tsvet_7c6decc5-3643-4f3c-aa37-bf54043132f8": {
+    "code": "n = int(input())\nx = int(input())\ny = int(input())\nif (x + y) % 2 != 0:\n    print('white')\nelse:\n    print('black')",
+    "courseName": "Язык Python: Цвет на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Цвет",
+    "timestamp": "2025-09-26T15:38:56.058Z",
+    "url": "https://ulearn.me/course/python/Tsvet_7c6decc5-3643-4f3c-aa37-bf54043132f8"
+  },
+  "Условные конструкции|Штрафы|https://ulearn.me/course/python/Shtrafy_a22bdffb-7c45-40fe-8770-fe0a7ccf57cb": {
+    "code": "l = int(input())\nr = int(input())\nv = int(input())\n​\nif v < l:\n    print(0)\nelif l <= v <= r:\n    print(500)\nelse:\n    print(10000)",
+    "courseName": "Язык Python: Штрафы на Ulearn.me",
+    "module": "Условные конструкции",
+    "task": "Штрафы",
+    "timestamp": "2025-09-26T15:38:58.983Z",
+    "url": "https://ulearn.me/course/python/Shtrafy_a22bdffb-7c45-40fe-8770-fe0a7ccf57cb"
+  },
+  "Цикл for|Автобус дяди Васи|https://ulearn.me/course/python/Avtobus_dyadi_Vasi_04ee1bd5-3736-4829-9bbf-50b1a66ef154": {
+    "code": "n = int(input())\nk = int(input())\ntotal = 0\nfor _ in range(n):\n    total += int(input())\nprint(total * k)",
+    "courseName": "Язык Python: Автобус дяди Васи на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Автобус дяди Васи",
+    "timestamp": "2025-09-26T15:40:00.017Z",
+    "url": "https://ulearn.me/course/python/Avtobus_dyadi_Vasi_04ee1bd5-3736-4829-9bbf-50b1a66ef154"
+  },
+  "Цикл for|Вова и камушки|https://ulearn.me/course/python/Vova_i_kamushki_1892668a-704e-4e1a-9bc3-a34895879e94": {
+    "code": "a = int(input())\nn = int(input())\nfor i in range(n):\n    ai = int(input())\n    a = max(0, 2 * a - ai)\nprint(a)",
+    "courseName": "Язык Python: Вова и камушки на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Вова и камушки",
+    "timestamp": "2025-09-26T15:40:08.947Z",
+    "url": "https://ulearn.me/course/python/Vova_i_kamushki_1892668a-704e-4e1a-9bc3-a34895879e94"
+  },
+  "Цикл for|Интересная сумма|https://ulearn.me/course/python/Interesnaya_summa_efbd2b3b-8212-485b-874a-ecda40a1b398": {
+    "code": "def calculate_sum():\n    n = int(input())\n    k = int(input())\n    total_sum = 0\n    for _ in range(n):\n        num = int(input())\n        if num > k:\n            total_sum += num\n        else:\n            total_sum += num * 10\n    print(total_sum)\n​\ncalculate_sum()",
+    "courseName": "Язык Python: Интересная сумма на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Интересная сумма",
+    "timestamp": "2025-09-26T15:40:15.095Z",
+    "url": "https://ulearn.me/course/python/Interesnaya_summa_efbd2b3b-8212-485b-874a-ecda40a1b398"
+  },
+  "Цикл for|Ира и томаты - 2|https://ulearn.me/course/python/Ira_i_tomaty_2_4d5cd03e-fe7a-4c9e-94f5-240a79375be2": {
+    "code": "n = int(input())\nq = int(input())\ntotal_tomatoes = sum((q + i) for i in range(n))\nprint(total_tomatoes)",
+    "courseName": "Язык Python: Ира и томаты - 2 на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Ира и томаты - 2",
+    "timestamp": "2025-09-26T15:40:03.336Z",
+    "url": "https://ulearn.me/course/python/Ira_i_tomaty_2_4d5cd03e-fe7a-4c9e-94f5-240a79375be2"
+  },
+  "Цикл for|Марина и яблоки - 2|https://ulearn.me/course/python/Marina_i_yabloki_2_e868055f-5da6-490d-a170-09231e3831a0": {
+    "code": "def calculate_apples():\n    friends = int(input())\n    baskets = int(input())\n    friend_apples = 0\n    neighbor_apples = 0\n​\n    for _ in range(baskets):\n        apples = int(input())\n        friend_apples += apples // friends\n        neighbor_apples += apples % friends\n​\n    print(friend_apples)\n    print(neighbor_apples)\n​\ncalculate_apples()",
+    "courseName": "Язык Python: Марина и яблоки - 2 на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Марина и яблоки - 2",
+    "timestamp": "2025-09-26T15:40:06.066Z",
+    "url": "https://ulearn.me/course/python/Marina_i_yabloki_2_e868055f-5da6-490d-a170-09231e3831a0"
+  },
+  "Цикл for|Поход в магазин|https://ulearn.me/course/python/Pokhod_v_magazin_a8708880-a116-4923-bcfa-21c8ee3287fd": {
+    "code": "n = int(input())\na = int(input())\nfor i in range(n - 1):\n    b = int(input())\n    if b > a:\n        print('YES')\n    else:\n        print('NO')\n    a = b",
+    "courseName": "Язык Python: Поход в магазин на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Поход в магазин",
+    "timestamp": "2025-09-26T15:40:22.114Z",
+    "url": "https://ulearn.me/course/python/Pokhod_v_magazin_a8708880-a116-4923-bcfa-21c8ee3287fd"
+  },
+  "Цикл for|Считаем сумму|https://ulearn.me/course/python/Schitaem_summu_20e3436c-619a-4a30-96e9-e8bab0fe5446": {
+    "code": "n = int(input())\ns = n * (n + 1) // 2\nres = [str(i) for i in range(1, n + 1)]\nprint('+'.join(res) + '=' + str(s))",
+    "courseName": "Язык Python: Считаем сумму на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Считаем сумму",
+    "timestamp": "2025-09-26T15:39:54.240Z",
+    "url": "https://ulearn.me/course/python/Schitaem_summu_20e3436c-619a-4a30-96e9-e8bab0fe5446"
+  },
+  "Цикл for|Факториал|https://ulearn.me/course/python/Faktorial_bdc67fce-374c-417c-a1c1-2439bedd399e": {
+    "code": "n = int(input())\nresult = 1\nfor i in range(1, n + 1):\n    result *= i\nprint(result)",
+    "courseName": "Язык Python: Факториал на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Факториал",
+    "timestamp": "2025-09-26T15:39:56.860Z",
+    "url": "https://ulearn.me/course/python/Faktorial_bdc67fce-374c-417c-a1c1-2439bedd399e"
+  },
+  "Цикл for|Числа, делящиеся на 5|https://ulearn.me/course/python/Chisla_delyashchiesya_na_5_b6959751-7a39-4adf-a600-b24d3996126d": {
+    "code": "A = int(input())\nB = int(input())\n​\nfor i in range(1, 1001):\n    if i >= A and i <= B:\n        if i % 5 == 0:\n            print(i, end=\" \")",
+    "courseName": "Язык Python: Числа, делящиеся на 5 на Ulearn.me",
+    "module": "Цикл for",
+    "task": "Числа, делящиеся на 5",
+    "timestamp": "2025-09-26T15:57:37.024Z",
+    "url": "https://ulearn.me/course/python/Chisla_delyashchiesya_na_5_b6959751-7a39-4adf-a600-b24d3996126d"
+  },
+  "Цикл while|Блэкджек|https://ulearn.me/course/python/Blekdzhek_a5f1a71f-68a1-4fa8-a9a0-a4355fb309c2": {
+    "code": "def calculate_score(card):\n    scores = {\n        '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,\n        'J': 10, 'Q': 10, 'K': 10, 'A': 11\n    }\n    return scores[card]\n​\ndef main():\n    cards = [input() for _ in range(13)]\n    total_score = 0\n    card_count = 0\n    for card in cards:\n        score = calculate_score(card)\n        if total_score + score <= 21:\n            total_score += score\n            card_count += 1\n        else:\n            break\n    print(card_count)\n​\nif __name__ == \"__main__\":\n    main()",
+    "courseName": "Язык Python: Блэкджек на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Блэкджек",
+    "timestamp": "2025-09-26T15:44:04.788Z",
+    "url": "https://ulearn.me/course/python/Blekdzhek_a5f1a71f-68a1-4fa8-a9a0-a4355fb309c2"
+  },
+  "Цикл while|Вася и счет|https://ulearn.me/course/python/Vasya_i_schet_d46c19e1-03c8-4adb-b241-ce6bd023df6d": {
+    "code": "k = int(input())\na = int(input())\nyears = 0\nwhile k < a:\n    if k < 1000:\n        k += 2\n    else:\n        k += k // 500\n    years += 1\nprint(years)",
+    "courseName": "Язык Python: Вася и счет на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Вася и счет",
+    "timestamp": "2025-09-26T15:43:52.143Z",
+    "url": "https://ulearn.me/course/python/Vasya_i_schet_d46c19e1-03c8-4adb-b241-ce6bd023df6d"
+  },
+  "Цикл while|Диалоговая система|https://ulearn.me/course/python/Dialogovaya_sistema_f18cde75-bca4-4c5b-b734-46eb00b5a8de": {
+    "code": "a = 0\ncount = 0\nwhile True:\n    k = int(input())\n    count += 1\n    if k == 0:\n        break\n    a += k\n    if a > 32:\n        break\nprint(count)",
+    "courseName": "Язык Python: Диалоговая система на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Диалоговая система",
+    "timestamp": "2025-09-26T15:44:01.583Z",
+    "url": "https://ulearn.me/course/python/Dialogovaya_sistema_f18cde75-bca4-4c5b-b734-46eb00b5a8de"
+  },
+  "Цикл while|Коля и счет|https://ulearn.me/course/python/Kolya_i_schet_d5c95841-a2b1-4c5d-b54e-63d10e5a823f": {
+    "code": "k = int(input())\na = int(input())\n​\nyear = 1991\nyears = 0\n​\nwhile k < a:\n    if year % 2 == 0:\n        k += 5\n    else:\n        k += k % 11\n    year += 1\n    years += 1\n​\nprint(years)",
+    "courseName": "Язык Python: Коля и счет на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Коля и счет",
+    "timestamp": "2025-09-26T15:43:55.510Z",
+    "url": "https://ulearn.me/course/python/Kolya_i_schet_d5c95841-a2b1-4c5d-b54e-63d10e5a823f"
+  },
+  "Цикл while|О числе|https://ulearn.me/course/python/O_chisle_e81cb7d6-ba5b-4af1-aa16-eb63ec5dac7c": {
+    "code": "def count_units_to_divide_by_9(n):\n    remainder = int(n) % 9\n    if remainder == 0:\n        return 0\n    else:\n        return 9 - remainder\n​\nn = input()\nprint(count_units_to_divide_by_9(n))",
+    "courseName": "Язык Python: О числе на Ulearn.me",
+    "module": "Цикл while",
+    "task": "О числе",
+    "timestamp": "2025-09-26T15:43:49.385Z",
+    "url": "https://ulearn.me/course/python/O_chisle_e81cb7d6-ba5b-4af1-aa16-eb63ec5dac7c"
+  },
+  "Цикл while|Партии|https://ulearn.me/course/python/Partii_9cfa0ec4-3d94-4e09-aabd-226b88e233e3": {
+    "code": "n = int(input())\nk = int(input())\na = int(input())\nparties = 0\nwhile n < a:\n    n += (n % k) + 1\n    parties += 1\nprint(parties)",
+    "courseName": "Язык Python: Партии на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Партии",
+    "timestamp": "2025-09-26T15:43:46.621Z",
+    "url": "https://ulearn.me/course/python/Partii_9cfa0ec4-3d94-4e09-aabd-226b88e233e3"
+  },
+  "Цикл while|Последовательность|https://ulearn.me/course/python/Posledovatel_nost__c4c08ac4-87a5-42f7-80d3-6cc131e69b41": {
+    "code": "total = 0\nwhile True:\n    num = int(input())\n    if num < 0:\n        break\n    total += num\nprint(total)",
+    "courseName": "Язык Python: Последовательность на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Последовательность",
+    "timestamp": "2025-09-26T15:43:35.795Z",
+    "url": "https://ulearn.me/course/python/Posledovatel_nost__c4c08ac4-87a5-42f7-80d3-6cc131e69b41"
+  },
+  "Цикл while|Правильный выбор|https://ulearn.me/course/python/Pravil_nyy_vybor_7739d6fa-0b87-4044-8d65-12c20564a950": {
+    "code": "a = int(input())\nb = int(input())\n​\nyears = 0\nsasha_debt = a\nkirill_debt = b\n​\nwhile kirill_debt <= sasha_debt:\n    years += 1\n    sasha_debt *= 2\n    kirill_debt *= 3\n​\nprint(years)",
+    "courseName": "Язык Python: Правильный выбор на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Правильный выбор",
+    "timestamp": "2025-09-26T15:43:43.940Z",
+    "url": "https://ulearn.me/course/python/Pravil_nyy_vybor_7739d6fa-0b87-4044-8d65-12c20564a950"
+  },
+  "Цикл while|Процесс|https://ulearn.me/course/python/Protsess_cd5ca7c2-f5c4-40be-b9a7-e2e3dc113b4c": {
+    "code": "a = int(input())\nb = int(input())\nk = 0\nwhile a < b:\n    a *= 2\n    k += 1\nprint(k)",
+    "courseName": "Язык Python: Процесс на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Процесс",
+    "timestamp": "2025-09-26T15:43:41.288Z",
+    "url": "https://ulearn.me/course/python/Protsess_cd5ca7c2-f5c4-40be-b9a7-e2e3dc113b4c"
+  },
+  "Цикл while|Слова|https://ulearn.me/course/python/Slova_8678e7b3-9622-4fd9-b389-b7d7c0aff79f": {
+    "code": "import sys\nn = 1\nfor line in sys.stdin:\n    if line.strip().isalpha():\n        n += 1\n    else:\n        print(n)\n        break",
+    "courseName": "Язык Python: Слова на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Слова",
+    "timestamp": "2025-09-26T15:43:38.600Z",
+    "url": "https://ulearn.me/course/python/Slova_8678e7b3-9622-4fd9-b389-b7d7c0aff79f"
+  },
+  "Цикл while|Хорошая строка|https://ulearn.me/course/python/Khoroshaya_stroka_0d33b814-6cb5-4bd5-bb80-9101b280a135": {
+    "code": "s = input()\nwhile s and s[0] != 'A':\n    s = s[1:]\nprint(s)",
+    "courseName": "Язык Python: Хорошая строка на Ulearn.me",
+    "module": "Цикл while",
+    "task": "Хорошая строка",
+    "timestamp": "2025-09-26T15:43:58.725Z",
+    "url": "https://ulearn.me/course/python/Khoroshaya_stroka_0d33b814-6cb5-4bd5-bb80-9101b280a135"
+  },
+  "Цикл и строка|Большая буква|https://ulearn.me/course/python/Bol_shaya_bukva_e4550c35-2adf-4884-842b-6a547dce5fbd": {
+    "code": "s = input()\nt = input()\nfor i in range(len(s)):\n    if s[i] >= t:\n        print(i + 1)\n        break",
+    "courseName": "Язык Python: Большая буква на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Большая буква",
+    "timestamp": "2025-09-26T15:42:56.038Z",
+    "url": "https://ulearn.me/course/python/Bol_shaya_bukva_e4550c35-2adf-4884-842b-6a547dce5fbd"
+  },
+  "Цикл и строка|Буква с конца строки|https://ulearn.me/course/python/Bukva_s_kontsa_stroki_a0b65b4b-1857-4506-8315-67beff7de523": {
+    "code": "s = input()\nk = int(input())\nprint(s[-k])",
+    "courseName": "Язык Python: Буква с конца строки на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Буква с конца строки",
+    "timestamp": "2025-09-26T15:42:31.959Z",
+    "url": "https://ulearn.me/course/python/Bukva_s_kontsa_stroki_a0b65b4b-1857-4506-8315-67beff7de523"
+  },
+  "Цикл и строка|Буква с начала строки|https://ulearn.me/course/python/Bukva_s_nachala_stroki_633bb603-1f11-4516-b226-1cc6ac9229e2": {
+    "code": "s = input()\nk = int(input())\nprint(s[k - 1])",
+    "courseName": "Язык Python: Буква с начала строки на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Буква с начала строки",
+    "timestamp": "2025-09-26T15:42:29.330Z",
+    "url": "https://ulearn.me/course/python/Bukva_s_nachala_stroki_633bb603-1f11-4516-b226-1cc6ac9229e2"
+  },
+  "Цикл и строка|Восклицание!|https://ulearn.me/course/python/Vosklitsanie__548c97ac-d2e3-445a-88d0-f956674d0904": {
+    "code": "s = input()\nif '!' in s:\n    print(s.upper())\nelse:\n    print(s.lower())",
+    "courseName": "Язык Python: Восклицание! на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Восклицание!",
+    "timestamp": "2025-09-26T15:42:39.746Z",
+    "url": "https://ulearn.me/course/python/Vosklitsanie__548c97ac-d2e3-445a-88d0-f956674d0904"
+  },
+  "Цикл и строка|Вторая буква|https://ulearn.me/course/python/Vtoraya_bukva_f22aadd4-47bd-4d44-ba2d-af174ddac63c": {
+    "code": "s = input()\nprint(s[1])",
+    "courseName": "Язык Python: Вторая буква на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Вторая буква",
+    "timestamp": "2025-09-26T15:42:26.663Z",
+    "url": "https://ulearn.me/course/python/Vtoraya_bukva_f22aadd4-47bd-4d44-ba2d-af174ddac63c"
+  },
+  "Цикл и строка|Две строки|https://ulearn.me/course/python/Dve_stroki_ecea29e4-6d71-499d-b08a-9db0eadf59c0": {
+    "code": "def count_matching_positions():\n    string_a = input()\n    string_b = input()\n    matching_positions = sum(1 for char_a, char_b in zip(string_a, string_b) if char_a == char_b)\n    print(matching_positions)\n​\ncount_matching_positions()",
+    "courseName": "Язык Python: Две строки на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Две строки",
+    "timestamp": "2025-09-26T15:42:53.371Z",
+    "url": "https://ulearn.me/course/python/Dve_stroki_ecea29e4-6d71-499d-b08a-9db0eadf59c0"
+  },
+  "Цикл и строка|Замена буквы|https://ulearn.me/course/python/Zamena_bukvy_76477843-af50-471c-b2c4-50e38cf12037": {
+    "code": "s = input()\nk = int(input()) - 1\nt = input()\ns = s[:k] + t + s[k + 1:]\nprint(s)",
+    "courseName": "Язык Python: Замена буквы на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Замена буквы",
+    "timestamp": "2025-09-26T15:43:07.157Z",
+    "url": "https://ulearn.me/course/python/Zamena_bukvy_76477843-af50-471c-b2c4-50e38cf12037"
+  },
+  "Цикл и строка|Интересный запрос|https://ulearn.me/course/python/Interesnyy_zapros_3736cf74-dce1-4c51-a356-0fac47760350": {
+    "code": "s = input()\nl = int(input())\nd = int(input())\nprint(s[l-1:l+d-1])",
+    "courseName": "Язык Python: Интересный запрос на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Интересный запрос",
+    "timestamp": "2025-09-26T15:43:04.475Z",
+    "url": "https://ulearn.me/course/python/Interesnyy_zapros_3736cf74-dce1-4c51-a356-0fac47760350"
+  },
+  "Цикл и строка|Количество вопросов|https://ulearn.me/course/python/Kolichestvo_voprosov_48ebcd74-65d5-4f09-a289-dfbaa208bcc8": {
+    "code": "print(input().count('?'))",
+    "courseName": "Язык Python: Количество вопросов на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Количество вопросов",
+    "timestamp": "2025-09-26T15:42:37.121Z",
+    "url": "https://ulearn.me/course/python/Kolichestvo_voprosov_48ebcd74-65d5-4f09-a289-dfbaa208bcc8"
+  },
+  "Цикл и строка|Маленькая буква|https://ulearn.me/course/python/Malen_kaya_bukva_4aa3d5e8-0cd7-4d5a-b4af-7f3fa5b4348c": {
+    "code": "s = input()\nt = input()\n​\nresult = -1\nfor char in s:\n    if char <= t:\n        result = char\n​\nprint(result)",
+    "courseName": "Язык Python: Маленькая буква на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Маленькая буква",
+    "timestamp": "2025-09-26T15:42:58.878Z",
+    "url": "https://ulearn.me/course/python/Malen_kaya_bukva_4aa3d5e8-0cd7-4d5a-b4af-7f3fa5b4348c"
+  },
+  "Цикл и строка|Мясник|https://ulearn.me/course/python/Myasnik_db29b8f5-dbf3-4390-acbc-ee7f7a14487f": {
+    "code": "s = input()\nl = int(input())\nr = int(input())\nif 'F' in s[l:len(s) - r]:\n    print('YES')\nelse:\n    print('NO')",
+    "courseName": "Язык Python: Мясник на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Мясник",
+    "timestamp": "2025-09-26T15:42:45.163Z",
+    "url": "https://ulearn.me/course/python/Myasnik_db29b8f5-dbf3-4390-acbc-ee7f7a14487f"
+  },
+  "Цикл и строка|Нечетные позиции|https://ulearn.me/course/python/Nechetnye_pozitsii_e9531d7a-60ec-4037-a96a-9d81667629d0": {
+    "code": "s = input()\ncount = 0\nfor i in range(len(s)):\n    if i % 2 == 0 and s[i] == 'T':\n        count += 1\nprint(count)",
+    "courseName": "Язык Python: Нечетные позиции на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Нечетные позиции",
+    "timestamp": "2025-09-26T15:42:50.705Z",
+    "url": "https://ulearn.me/course/python/Nechetnye_pozitsii_e9531d7a-60ec-4037-a96a-9d81667629d0"
+  },
+  "Цикл и строка|Простой подсчет|https://ulearn.me/course/python/Prostoy_podschet_02611b6f-435e-48a9-a8e7-b6a01cba01cc": {
+    "code": "s = input()\nt = input()\nprint(s.count(t))",
+    "courseName": "Язык Python: Простой подсчет на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Простой подсчет",
+    "timestamp": "2025-09-26T15:42:47.906Z",
+    "url": "https://ulearn.me/course/python/Prostoy_podschet_02611b6f-435e-48a9-a8e7-b6a01cba01cc"
+  },
+  "Цикл и строка|Разворот|https://ulearn.me/course/python/Razvorot_8a5c918e-5552-4aea-8b01-9762ce08b040": {
+    "code": "s = input()\nprint(s[::-1])",
+    "courseName": "Язык Python: Разворот на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Разворот",
+    "timestamp": "2025-09-26T15:43:01.636Z",
+    "url": "https://ulearn.me/course/python/Razvorot_8a5c918e-5552-4aea-8b01-9762ce08b040"
+  },
+  "Цикл и строка|Расшифровка|https://ulearn.me/course/python/Rasshifrovka_0f8350f1-344b-445a-b548-aed080a8a423": {
+    "code": "s = input()\nn = int(input())\nprint('yes' if s[:n].count('s') % 2 else 'no')",
+    "courseName": "Язык Python: Расшифровка на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Расшифровка",
+    "timestamp": "2025-09-26T15:42:42.378Z",
+    "url": "https://ulearn.me/course/python/Rasshifrovka_0f8350f1-344b-445a-b548-aed080a8a423"
+  },
+  "Цикл и строка|Хорошие строки|https://ulearn.me/course/python/Khoroshie_stroki_317001b9-5bbe-4c14-a04b-1afbfb4e3847": {
+    "code": "n = int(input())\ncount = 0\nfor _ in range(n):\n    s = input()\n    if s[0] == s[-1]:\n        count += 1\nprint(count)",
+    "courseName": "Язык Python: Хорошие строки на Ulearn.me",
+    "module": "Цикл и строка",
+    "task": "Хорошие строки",
+    "timestamp": "2025-09-26T15:42:34.399Z",
+    "url": "https://ulearn.me/course/python/Khoroshie_stroki_317001b9-5bbe-4c14-a04b-1afbfb4e3847"
+  }
+}
