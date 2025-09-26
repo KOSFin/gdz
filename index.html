@@ -24,18 +24,69 @@
       --bg-dark: #121212; --text-dark: #e0e0e0; --border-dark: #333; --muted-dark: #888; --ad-bg-dark: #1e1e1e;
       
       --maxw: 900px; --accent: #0b66c3;
+      --ad-width-desktop: 230px;
+      --ad-height-mobile: 80px;
     }
     html, body { height: 100%; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; transition: background-color 0.3s, color 0.3s; }
-    body { background-color: var(--bg-light); color: var(--text-light); display: flex; align-items: stretch; }
+    body { background-color: var(--bg-light); color: var(--text-light); }
     body.dark { background-color: var(--bg-dark); color: var(--text-dark); }
     
-    .col-ad { width: 160px; background-color: var(--ad-bg-light); display: flex; align-items: center; justify-content: center; padding: 12px; border-left: 1px solid var(--border-light); border-right: 1px solid var(--border-light); flex-shrink: 0; }
-    body.dark .col-ad { background-color: var(--ad-bg-dark); border-color: var(--border-dark); }
+    /* --- Рекламные блоки --- */
+    .ad-container-desktop {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: var(--ad-width-desktop);
+        background-color: var(--ad-bg-light);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        z-index: 10;
+    }
+    .ad-container-desktop.left { left: 0; border-right: 1px solid var(--border-light); }
+    .ad-container-desktop.right { right: 0; border-left: 1px solid var(--border-light); }
+    body.dark .ad-container-desktop { background-color: var(--ad-bg-dark); border-color: var(--border-dark); }
     
-    .mobile-ad { display: none; } /* Скрыты по умолчанию */
+    .ad-container-desktop img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
 
-    .center { flex: 1; display: flex; justify-content: center; min-width: 0; }
-    .wrap { max-width: var(--maxw); width: 100%; padding: 28px; box-sizing: border-box; }
+    .ad-container-mobile {
+        display: none; /* Скрыты по умолчанию, управляются медиа-запросом */
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: auto;
+        background-color: var(--ad-bg-light);
+        border-bottom: 1px solid var(--border-light);
+        z-index: 10;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* ИЗМЕНЕНИЕ 1: Скрываем всё, что выходит за рамки блока */
+    }
+    
+    /* ИЗМЕНЕНИЕ 2: Новые стили для картинки в мобильной рекламе */
+    .ad-container-mobile img {
+        height: 100%; /* Растягиваем по высоте контейнера */
+        width: auto;   /* Ширина подбирается автоматически, сохраняя пропорции */
+        max-width: none; /* Разрешаем изображению быть шире контейнера */
+    }
+
+    .ad-container-mobile#ad-top { top: 0; border-bottom: 1px solid var(--border-light); border-top: 0; }
+    .ad-container-mobile#ad-bottom { bottom: 0; border-top: 1px solid var(--border-light); border-bottom: 0; }
+    body.dark .ad-container-mobile { background-color: var(--ad-bg-dark); border-color: var(--border-dark); }
+
+    /* Отступы для основного контента, чтобы реклама не перекрывала */
+    .center {
+        margin-left: var(--ad-width-desktop);
+        margin-right: var(--ad-width-desktop);
+        flex-grow: 1;
+    }
+    
+    .wrap { max-width: var(--maxw); width: 100%; padding: 28px; margin: 0 auto; box-sizing: border-box; }
     
     /* Header */
     header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid var(--border-light); }
@@ -101,31 +152,27 @@
     body.dark .social-links a { color: var(--muted-dark); }
 
     /* --- Адаптация --- */
-    @media (max-width: 1000px){
-      .col-ad { display: none; } /* Скрываем боковую рекламу */
-      .wrap { padding: 14px; }
+    @media (max-width: 1250px){ /* Ширина контента + 2 рекламы + отступы */
+      .ad-container-desktop { display: none; } 
+      .center { margin: 0; }
       
-      .mobile-ad { /* Показываем мобильную рекламу */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 60px;
-        background-color: var(--ad-bg-light);
-        border-bottom: 1px solid var(--border-light);
-        font-size: 14px;
-        color: var(--muted-light);
+      .ad-container-mobile { display: flex; }
+      .wrap { 
+          padding-top: calc(var(--ad-height-mobile) + 14px);
+          padding-bottom: calc(var(--ad-height-mobile) + 14px); /* Чтобы нижняя реклама не перекрывала футер */
       }
-      body.dark .mobile-ad {
-          background-color: var(--ad-bg-dark);
-          border-color: var(--border-dark);
-          color: var(--muted-dark);
-      }
-      #ad-top { margin: 0 14px 15px 14px; border: 1px solid var(--border-light); border-radius: 8px; }
-      #ad-bottom { margin: 15px 14px 0 14px; border: 1px solid var(--border-light); border-radius: 8px; }
-      body.dark #ad-top, body.dark #ad-bottom { border-color: var(--border-dark); }
     }
     
+    /* ИЗМЕНЕНИЕ 3: Новое правило для узких экранов */
+    @media (max-width: 970px){
+      .ad-container-mobile img {
+          width: 100%;  /* Начинаем подгонять по ширине */
+          height: auto; /* Высота становится автоматической */
+      }
+    }
+
     @media (max-width: 768px){
+      .wrap { padding-left: 14px; padding-right: 14px; }
       header { flex-direction: column; gap: 15px; }
       .controls { width: 100%; }
       .search { width: 100%; min-width: 0; box-sizing: border-box; } /* Адаптивный поиск */
@@ -135,12 +182,12 @@
   </style>
 </head>
 <body>
-  <div class="col-ad">Реклама<br><small>лево</small></div>
+  
+  <div class="ad-container-desktop left" id="ad-left"></div>
+  
   <div class="center">
     <div class="wrap">
       
-      <div class="mobile-ad" id="ad-top">Реклама (верх)</div>
-
       <header>
         <div class="logo">
           <h1>ГДЗ ULearn Python</h1>
@@ -175,11 +222,14 @@
         </div>
       </footer>
       
-      <div class="mobile-ad" id="ad-bottom">Реклама (низ)</div>
-
     </div>
   </div>
-  <div class="col-ad">Реклама<br><small>право</small></div>
+  
+  <div class="ad-container-desktop right" id="ad-right"></div>
+
+  <div class="ad-container-mobile" id="ad-top"></div>
+  <div class="ad-container-mobile" id="ad-bottom"></div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script>
@@ -331,7 +381,45 @@
         render(filtered);
       }
       
+      // --- НОВЫЙ КОД ДЛЯ РЕКЛАМЫ ---
+      function loadAds() {
+          const adSlots = [
+              { id: 'ad1', desktop: 'ad-left', mobile: 'ad-top', link: 'https://viberouter.dev' }, 
+              { id: 'ad2', desktop: 'ad-right', mobile: 'ad-bottom', link: 'https://t.me/swpebot?startapp' }
+          ];
+
+          // Проверяем, мобильная ли версия (совпадает с медиа-запросом в CSS)
+          const isMobile = window.matchMedia("(max-width: 1250px)").matches;
+          const imageFileName = isMobile ? 'mobile.png' : 'desktop.png';
+
+          adSlots.forEach(slot => {
+              const containerId = isMobile ? slot.mobile : slot.desktop;
+              const container = document.getElementById(containerId);
+              
+              if (container) {
+                  const adLink = document.createElement('a');
+                  adLink.href = slot.link;
+                  adLink.target = '_blank';
+                  adLink.rel = 'noopener noreferrer';
+
+                  const adImage = document.createElement('img');
+                  adImage.src = `./ads/${slot.id}/${imageFileName}`;
+                  adImage.alt = `Реклама ${slot.id}`;
+                  
+                  // ИЗМЕНЕНИЕ 4: Убрали инлайн-стили, чтобы они не перебивали CSS
+                  
+                  adLink.appendChild(adImage);
+                  container.innerHTML = ''; // Очищаем контейнер перед добавлением
+                  container.appendChild(adLink);
+              }
+          });
+      }
+      // --- КОНЕЦ НОВОГО КОДА ---
+
       async function init() {
+        loadAds(); // Загружаем рекламу
+        window.addEventListener('resize', loadAds); // И пере-загружаем при изменении размера окна
+
         const rawData = await loadDataFromLocalFile();
         if (rawData) {
           currentItems = normalizeData(rawData);
@@ -355,5 +443,4 @@
     });
   </script>
 </body>
-
 </html>
