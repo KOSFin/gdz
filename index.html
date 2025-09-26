@@ -127,11 +127,11 @@
     .task a:hover { text-decoration: underline; }
     
     /* Code Block */
-    .code-container { flex: 0 0 50%; max-width: calc(100% - 100px); width: auto; }
+    .code-container { flex: 0 0 50%; max-width: calc(100% - 170px); width: auto; }
     .code-header { display: flex; justify-content: space-between; align-items: center; background-color: #333; color: #fff; padding: 6px 10px; border-top-left-radius: 6px; border-top-right-radius: 6px; font-size: 13px; }
     .code-header .lang { font-family: monospace; }
     .copy-btn { background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 6px; cursor: pointer; font-size: 12px; }
-    .code { margin: 0; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; overflow-x: auto; }
+    .code { margin: 0; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; overflow-x: auto; overflow-x: auto; }
     .code pre { margin: 0; }
 
     .task-meta { color: var(--muted-light); font-size: 13px; }
@@ -177,7 +177,7 @@
       .controls { width: 100%; }
       .search { width: 100%; min-width: 0; box-sizing: border-box; } /* Адаптивный поиск */
       .task { flex-direction: column; }
-      .code-container { width: 100%; flex-basis: auto; }
+      .code-container { width: 100%; flex-basis: auto; max-width: 100%; }
     }
   </style>
 </head>
